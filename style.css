@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --brand-grey-text: #707070;
-  --brand-orange-text: #F29D41;
+  --brand-orange-text: #f29d41;
   --brand-dark-orange-text: #965506;
-  --brand-orange-bg-light: #EADDCD;
+  --brand-orange-bg-light: #eaddcd;
 }
 
 /* * {
@@ -49,9 +49,11 @@ header {
   height: 220px;
   align-items: center;
   background-color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
-
+ul {
+  list-style: none;
+}
 header a {
   text-decoration: none;
   color: unset;
@@ -60,7 +62,6 @@ header a {
 header a:hover {
   color: var(--brand-orange-text);
 }
-
 
 /* Header items */
 header .title {
@@ -104,7 +105,6 @@ header ul li:last-of-type {
   margin-right: 0px;
 }
 
-
 /* Hero */
 .hero {
   background-image: url(/images/background-header.png);
@@ -113,17 +113,20 @@ header ul li:last-of-type {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .second-navigation {
   position: absolute;
   top: 220px;
   height: 64px;
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: center;
   width: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .second-navigation a {
@@ -135,7 +138,6 @@ header ul li:last-of-type {
 .second-navigation a:hover {
   color: var(--brand-grey-text);
 }
-
 
 .second-navigation .list {
   display: grid;
@@ -157,8 +159,125 @@ header ul li:last-of-type {
   margin-right: 20px;
   width: max-content;
 }
+.hero .company-name {
+  display: grid;
+  grid-column: 1 / 9;
+}
+.hero .company-name h1 {
+  align-items: center;
+  color: white;
+  text-align: center;
+  font: normal normal 600 35px/33px "Open Sans";
+  letter-spacing: 0px;
+  opacity: 1;
+  height: 113px;
+  margin-top: 20px;
+}
+.hero .contact {
+  display: grid;
+  grid-column: 3/7;
+  gap: 60px;
+  justify-content: center;
+  margin: 20px;
+}
+.hero .contact .call-number {
+  display: grid;
+  grid-column: 1/3;
+  align-items: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 0.9;
+  width: 269px;
+  height: 55px;
+}
+.hero .contact .call-number a {
+  text-align: center;
+  font: italic normal normal 20px/33px Open Sans;
+  letter-spacing: 0px;
+  color: #342626;
+  opacity: 1;
+  text-decoration: none;
+}
+.hero .contact .location {
+  display: grid;
+  grid-column: 3/5;
+  align-items: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 0.9;
+  width: 269px;
+  height: 55px;
+}
+.hero .contact .location a {
+  text-align: center;
+  font: italic normal normal 20px/33px Open Sans;
+  letter-spacing: 0px;
+  color: #342626;
+  opacity: 1;
+  margin: 0;
+  text-decoration: none;
+}
+.contact a:hover {
+  align-items: center;
+  background: #dcdcdc 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 0.9;
+  width: 269px;
+  height: 55px;
+}
 
 /* Specialties */
 .specialties {
+  background-color: white;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.specialties .title {
+  display: grid;
+  grid-column: 1 / 9;
+  width: 100%;
+  justify-content: center;
+}
+.specialties .title h3 {
+  text-align: center;
+  font: italic normal bold 30px/40px Playfair Display;
+  letter-spacing: 0px;
+  color: #f29d41;
+  opacity: 1;
+  display: flex;
+  width: 753px;
+  height: 80px;
+}
+.specialties-list {
+  display: grid;
+  grid-column: 1/10;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.specialties .specialties-list ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.specialties .specialties-list ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.specialties .specialties-list ul li h4 {
+  text-align: center;
+  font: italic normal medium 25px/33px "Playfair Display";
+  letter-spacing: 0px;
+  color: #f29d41;
+  opacity: 1;
 }
