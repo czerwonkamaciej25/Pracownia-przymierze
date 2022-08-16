@@ -253,31 +253,57 @@ header ul li:last-of-type {
   display: flex;
   width: 753px;
   height: 80px;
+  margin-top: 100px;
+  margin-bottom: 50px ;
 }
-.specialties-list {
+.specialties .specialties-list {
   display: grid;
   grid-column: 1/10;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 .specialties .specialties-list ul {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   padding: 0;
-}
-.specialties .specialties-list ul li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  justify-content: space-between;
+  width: 100%;
   
 }
-.specialties .specialties-list ul li h4 {
+.specialties .specialties-list ul li {
   text-align: center;
   font: italic normal medium 25px/33px "Playfair Display";
   letter-spacing: 0px;
   color: #f29d41;
   opacity: 1;
 }
+
+.specialties .specialties-list ul li h4 {
+margin-top: 30px;
+}
+
+/* history */
+
+.history {
+  background-color: white;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.history .history-content {
+  display: grid;
+  grid-column: 1 / 9;
+  width: 100%;
+  justify-content: center;
+}
+.history .history-content .aboutme {
+  display: flex;
+flex-direction: row;
+  width: 100%;
+  justify-content:flex-start;
+}
+
