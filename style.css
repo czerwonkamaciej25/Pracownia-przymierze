@@ -609,7 +609,6 @@ padding: 0;
   display: grid;
   grid-column: 4 / 6;
 }
-
 .footer {
   height: 1200px;
   background-position: center;
@@ -622,17 +621,20 @@ padding: 0;
 .footer-content {
   display: grid;
   grid-column: 1 / 9;
+  align-items: center;
 }
-.footer-content .title {
-  display: grid;
-  grid-column: 1 / 3;
-  font-size: 50px;
-  color: black;
-  margin-top: 40px;
+.footer-content-data {
+  display: flex;
+  justify-content: space-between;
 }
-.footer-content a {
-  text-decoration: none;
-  color: unset;
+.footer-content-data ul {
+ margin: 0;
+ padding: 0;
 }
+
+.footer-content-data .center {
+  align-items: center;
+}
+
 
 
