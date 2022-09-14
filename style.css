@@ -466,7 +466,6 @@ h5 {
   display: grid;
   grid-column: 1 / 9;
   grid-row: 6/8;
-  margin-top: 100px;
   z-index: 3;
   width: 100%;
   height: 720px;
@@ -511,7 +510,9 @@ h5 {
   opacity: 1;
   text-decoration: none;
 }
-
+.visit-content ul {
+  padding: 0;
+}
 /* quote 2 */
 
 .quote-2 {
@@ -552,7 +553,6 @@ h5 {
   opacity: 1;
 }
 
-
 .diseases {
   background-position: center;
   width: 100%;
@@ -574,16 +574,16 @@ h5 {
   text-align: center;
   font: italic normal bold 30px/40px "Playfair Display";
   letter-spacing: 0px;
-  color: #F29D41;
+  color: #f29d41;
   opacity: 1;
   margin: 0 0 60px 0;
 }
-.diseases-list{
-display: flex;
-width: 100%;
-justify-content: space-between;
-margin: 0;
-padding: 0;
+.diseases-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 .diseases-list ul {
   margin: 0;
@@ -600,12 +600,12 @@ padding: 0;
   height: 65px;
   background-position: center;
   width: 100%;
-  background:#ffffff;
+  background: #ffffff;
   z-index: 2;
 }
-.footer-logo  {
+.footer-logo {
   align-self: center;
- justify-items: center;
+  justify-items: center;
   display: grid;
   grid-column: 4 / 6;
 }
@@ -613,7 +613,7 @@ padding: 0;
   height: auto;
   background-position: center;
   width: 100%;
-  background:#EADDCD;
+  background: #eaddcd;
   opacity: 1;
   display: flex;
   justify-content: center;
@@ -655,8 +655,8 @@ padding: 0;
 }
 
 .footer-content-data ul {
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-content-data .center {
@@ -666,6 +666,7 @@ padding: 0;
 .footer .contact-me {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 .footer .contact-me .input-row {
   display: flex;
@@ -677,16 +678,48 @@ padding: 0;
 .footer .contact-me .input-row .text-input:nth-child(2) {
   margin-left: 34px;
 }
-.footer .contact-me .text-input, .text-area-input {
+
+.footer .contact-me .text-input,
+.text-area-input {
   display: flex;
   flex-direction: column;
+}
+.footer .contact-me .text-input input {
+  border: none;
 }
 .footer .contact-me .text-area-input {
   width: 100%;
   min-height: 143px;
+  
 }
 .footer .contact-me .text-area-input textarea {
   resize: none;
   width: 100%;
   min-height: 143px;
+  border: none;
+}
+.footer .contact-me h4 {
+  text-align: left;
+  font: normal normal bold 20px/35px "Open Sans";
+  letter-spacing: 0px;
+  color: #965506;
+  opacity: 1;
+}
+.footer .contact-me .text-input{
+  text-align: left;
+  font: normal normal normal 18px/35px "Open Sans";
+  letter-spacing: 0px;
+  color: #965506;
+  opacity: 1;
+}
+.footer .contact-me .input-row {
+  text-align: left;
+  font: normal normal normal 18px/35px "Open Sans";
+  letter-spacing: 0px;
+  color: #965506;
+  opacity: 1;
+}
+.google-maps {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
