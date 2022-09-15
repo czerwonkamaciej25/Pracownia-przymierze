@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style-subpage.css">
   </head>
   <body class="d-flex flex-column">
     <div class="navigation">
@@ -277,7 +278,7 @@
             
             <div class="footer-content-data">
               <ul class="left">
-               <li>Przemysław Traczyński</li>
+               <li> <div class="bold-left"> Przemysław Traczyński</div></li>
                <li>Ariańska 13/18</li>
                <li>31-505 Kraków</li> 
                <li>Tel. +48 505 420 127</li>
@@ -285,7 +286,7 @@
               </ul>
               <ul class="center">
                 <li><img src="/images/Icon metro-facebook.png" alt=""></li>
-                <li>Godziny otwarcia: <br> poniedziałek -piątek: 10.00-20.00</li>
+                <li><div class="bold-center"> Godziny otwarcia: <br> poniedziałek -piątek: 10.00-20.00 </div></li>
               </ul>
               <ul class="right">
                 <li>przymierze</li>
@@ -315,6 +316,8 @@
                   <textarea id="message" name="message"></textarea>
                 </div>
               </div>
+              <input type="hidden" name="action" value="sendEmail" />
+              <button id="submit" name="submit" type="submit" value="Send" class="button send-button">Wyślij</button>
             </div>
             <div class="google-maps">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.0327919039564!2d19.952554916280558!3d50.066947522803495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b18fbfaf0c5%3A0xc952f008d0110317!2sAria%C5%84ska%2013%2C%2031-505%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1663162016537!5m2!1spl!2spl" width="1088" height="232" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
