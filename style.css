@@ -107,7 +107,7 @@ header ul li:last-of-type {
 
 /* Hero */
 .hero {
-  background-image: url(/images/background-header.png);
+  background-color:#442300 ;
   height: 348px;
   background-position: center;
   background-size: cover;
@@ -118,6 +118,19 @@ header ul li:last-of-type {
   align-items: center;
 }
 
+.hero video {
+  height: 348px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter:opacity(60%);
+  /* transform: translateX(10%) translateY(40%);} */
+}
+.backa {
+  background-color:#442300 ;
+}
 .second-navigation {
   position: absolute;
   top: 220px;
@@ -127,6 +140,7 @@ header ul li:last-of-type {
   justify-content: center;
   width: 100%;
   font-family: "Playfair Display", serif;
+  z-index: 1;
 }
 
 .second-navigation a {
@@ -162,6 +176,7 @@ header ul li:last-of-type {
 .hero .company-name {
   display: grid;
   grid-column: 1 / 9;
+  z-index: 1;
 }
 .hero .company-name h1 {
   align-items: center;
