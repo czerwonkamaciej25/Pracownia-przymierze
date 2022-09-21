@@ -126,7 +126,6 @@ header ul li:last-of-type {
   object-fit: cover;
   z-index: 0;
   filter:opacity(60%);
-  /* transform: translateX(10%) translateY(40%);} */
 }
 .backa {
   background-color:#442300 ;

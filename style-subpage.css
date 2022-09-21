@@ -1,5 +1,5 @@
 .hero-subpage {
-  background-image: url(/images/background-header.png);
+  background-color: #442300;
   height: 170px;
   background-position: center;
   background-size: cover;
@@ -8,6 +8,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero-subpage video {
+  height: 170px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: opacity(60%);
 }
 
 .history-background-aboutme {
@@ -20,43 +29,42 @@
 }
 
 .history-content-aboutme {
-    display: grid;
-    grid-column: 1 / 6;
-    width: 100%;
-    margin-top: 150px;
-    background: url(/images/half-logo.png);
-    background-repeat: no-repeat;
-    background-position: left;
+  display: grid;
+  grid-column: 1 / 6;
+  width: 100%;
+  margin-top: 150px;
+  background: url(/images/half-logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
-.portret-aboutme{
-    display: grid;
-    grid-column: 6 / 9;
-    grid-row: 1;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
+.portret-aboutme {
+  display: grid;
+  grid-column: 6 / 9;
+  grid-row: 1;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
 }
 
 .portret-aboutme h5 {
-    text-align: left;
-    font: italic normal bold 90px/120px Playfair Display;
-    letter-spacing: 0px;
-    color: #F29D41;
-    opacity: 1;
+  text-align: left;
+  font: italic normal bold 90px/120px Playfair Display;
+  letter-spacing: 0px;
+  color: #f29d41;
+  opacity: 1;
 }
 .history-content-aboutme-cd {
-    display: grid;
-    grid-column: 1 / 9;
-    width: 100%;
-    margin-top: 50px;
-    background: url(/images/half-logo-mirror.png);
-    background-repeat: no-repeat;
-    background-position:right;
+  display: grid;
+  grid-column: 1 / 9;
+  width: 100%;
+  margin-top: 50px;
+  background: url(/images/half-logo-mirror.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-
-.pricelist{
+.pricelist {
   background-position: center;
   width: 100%;
   height: 583px;
@@ -68,35 +76,35 @@
 }
 
 .pricelist-content {
-display: grid;
-grid-column: 1 / 9;
-width: 100%;
-justify-items: center;
+  display: grid;
+  grid-column: 1 / 9;
+  width: 100%;
+  justify-items: center;
 }
 
 .pricelist-content ul {
-text-align: center;
-font: normal normal 600 30px/55px Open Sans;
-letter-spacing: 0px;
-color: #965506;
-opacity: 1;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+  text-align: center;
+  font: normal normal 600 30px/55px Open Sans;
+  letter-spacing: 0px;
+  color: #965506;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .pricelist-content h5 {
-margin-bottom: 100px;
-text-align: center;
-font: italic normal bold 90px/120px Playfair Display;
-letter-spacing: 0px;
-color: #F29D41;
-opacity: 1;
+  margin-bottom: 100px;
+  text-align: center;
+  font: italic normal bold 90px/120px Playfair Display;
+  letter-spacing: 0px;
+  color: #f29d41;
+  opacity: 1;
 }
 
 .calendar {
   background-position: center;
   width: 100%;
-  height:1000px;
+  height: 1000px;
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
   display: flex;
@@ -105,26 +113,25 @@ opacity: 1;
 }
 
 .calendar-content {
-display: grid;
-grid-column: 1 / 9;
-width: 100%;
-justify-items: center;
+  display: grid;
+  grid-column: 1 / 9;
+  width: 100%;
+  justify-items: center;
 }
 
 .calendar-content h5 {
   text-align: center;
   font: italic normal bold 90px/120px "Playfair Display";
   letter-spacing: 0px;
-  color: #F29D41;
+  color: #f29d41;
   opacity: 1;
   margin: 0;
 }
 
-
 .contact-subpage {
   background-position: center;
   width: 100%;
-  height:1000px;
+  height: 1000px;
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
   display: flex;
@@ -141,7 +148,7 @@ justify-items: center;
   text-align: center;
   font: italic normal bold 90px/120px "Playfair Display";
   letter-spacing: 0px;
-  color: #F29D41;
+  color: #f29d41;
   opacity: 1;
   margin-bottom: 20px;
 }
@@ -166,11 +173,11 @@ justify-items: center;
   color: #965506;
 }
 .bold-center {
-font: normal normal normal 25px/33px "Open Sans";
-letter-spacing: 0px;
-color: #965506;
-opacity: 1;
-text-align: center;
+  font: normal normal normal 25px/33px "Open Sans";
+  letter-spacing: 0px;
+  color: #965506;
+  opacity: 1;
+  text-align: center;
 }
 .bold-left {
   font: normal normal normal 25px/33px "Open Sans";
@@ -178,7 +185,7 @@ text-align: center;
   color: #965506;
   opacity: 1;
   text-align: left;
-  }
+}
 .footer-content-data .center {
   align-items: center;
 }
@@ -205,7 +212,7 @@ text-align: center;
   flex-direction: column;
 }
 .contact-subpage .contact-me .text-input input {
-  border: 2px solid #B07F43;
+  border: 2px solid #b07f43;
   border-radius: 10px;
 }
 .contact-subpage .contact-me .text-area-input {
@@ -216,7 +223,7 @@ text-align: center;
   resize: none;
   width: 100%;
   min-height: 143px;
-  border: 2px solid #B07F43;
+  border: 2px solid #b07f43;
   border-radius: 10px;
 }
 .contact-subpage .contact-me h4 {
@@ -244,7 +251,7 @@ text-align: center;
 .send-button {
   border-radius: 50px;
   background: #ffffff 0% 0% no-repeat padding-box;
-  border: 2px solid #B07F43;
+  border: 2px solid #b07f43;
   opacity: 1;
   width: 171px;
   height: 54px;
@@ -261,3 +268,152 @@ text-align: center;
   border: rgb(208, 179, 144);
   color: #ffffff;
 }
+.psychotherapy-subpage {
+  height: 2000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.psychotherapy-subpage-content {
+  display: grid;
+  grid-column: 1 / 9;
+  width: 100%;
+}
+.psychotherapy-subpage-content p {
+  background-image: url(/images/Component\ 6\ –\ 1.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font: normal normal normal 20px/33px Open Sans;
+  letter-spacing: 0px;
+  color: #707070;
+}
+.psychotherapy-subpage-content h5 {
+  text-align: center;
+  font: italic normal bold 90px/120px Playfair Display;
+  letter-spacing: 0px;
+  color: #f29d41;
+  opacity: 1;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+.footer-white-background-subpage {
+  background-image: url(/images/Subtraction\ 1.png);
+  height: 65px;
+  background-position: center;
+  width: 100%;
+  background: #ffffff;
+  z-index: 2;
+}
+
+
+.covenant-subpage {
+  height: 2000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.covenant-subpage-content {
+  display: grid;
+  grid-column: 1 / 9;
+  width: 100%;
+}
+.covenant-subpage-content p {
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font: normal normal normal 20px/33px Open Sans;
+  letter-spacing: 0px;
+  color: #707070;
+}
+.covenant-subpage-content h5 {
+  text-align: center;
+  font: italic normal bold 90px/120px Playfair Display;
+  letter-spacing: 0px;
+  color: #f29d41;
+  opacity: 1;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+.covenant-subpage-content img {
+text-align: center;
+}
+/* .pracownia {
+  height: 1600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.pracownia-content  {
+  display: flex;
+  grid-column: 1 / 5;
+  width: 100%;
+  margin-top: 70px;
+  background: url(/images/half-logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.pracownia-content img  {
+  display: grid;
+  grid-column: 6 / 9;
+  grid-row: 1;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  margin-top: 200px;
+} */
+/* 
+
+.history-content-pracownia {
+  display: grid;
+  grid-column: 1 / 5;
+grid-row: 1;
+  width: 100%;
+  margin-top: 70px;
+  background: url(/images/half-logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.history-content-pracownia img {
+  display: grid;
+  grid-column: 5 / 9;
+  grid-row: 1;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  margin-top: 200px;
+}
+
+.history-content-pracownia h5 {
+  text-align: left;
+  font: italic normal bold 90px/120px Playfair Display;
+  letter-spacing: 0px;
+  color: #f29d41;
+  opacity: 1;
+  grid-row: 1;
+  margin-bottom: 80px;
+}
+.history-content-pracownia-cd {
+  display: grid;
+  grid-column: 1 / 9;
+  width: 100%;
+  margin-top: 50px;
+  background: url(/images/half-logo-mirror.png);
+  background-repeat: no-repeat;
+  background-position: right;
+} */
