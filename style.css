@@ -771,6 +771,16 @@ text-align: center;
   border: rgb(208, 179, 144);
   color: #ffffff;
 }
+input:focus { 
+  outline: none !important;
+  border-color: #965506;
+  box-shadow: 0 0 10px #e5b171;
+}
+.textarea:focus {
+  outline: none !important;
+  border-color: #965506;
+  box-shadow: 0 0 10px #e5b171;
+}
 
 .google-maps {
   margin-top: 50px;
