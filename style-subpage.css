@@ -349,7 +349,7 @@
 .covenant-subpage-image {
   text-align: center;
 }
-/* .pracownia {
+.lab {
   height: 1600px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -359,62 +359,65 @@
   justify-content: center;
   align-items: flex-start;
 }
-.pracownia-content  {
-  display: flex;
-  grid-column: 1 / 5;
-  width: 100%;
-  margin-top: 70px;
-  background: url(/images/half-logo.png);
-  background-repeat: no-repeat;
-  background-position: left;
-}
-.pracownia-content img  {
+.lab-content  {
   display: grid;
-  grid-column: 6 / 9;
+  grid-template-columns: repeat(8, 122px);
+  column-gap: 16px;
+}
+
+.lab-subpage-main  {
+
+  text-align: left;
+  font: normal normal normal 20px/33px "Open Sans";
+  letter-spacing: 0px;
+  color: #707070;
+  margin-bottom: 50px;
+  display: grid;
+  grid-row: 2;
+  grid-column: 1/5;
+  padding-right: 4px;
+}
+.lab-subpage-header {
+  text-align: center;
+  font: italic normal bold 90px/120px "Playfair Display";
+  letter-spacing: 0px;
+  color: #F29D41;
+  opacity: 1;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  display: grid;
   grid-row: 1;
-  align-items: center;
+  grid-column: 3/7;
   justify-items: center;
-  align-content: center;
-  margin-top: 200px;
-} */
-/* 
-
-.history-content-pracownia {
-  display: grid;
-  grid-column: 1 / 5;
-grid-row: 1;
-  width: 100%;
-  margin-top: 70px;
-  background: url(/images/half-logo.png);
-  background-repeat: no-repeat;
-  background-position: left;
 }
-
-.history-content-pracownia img {
+.lab-subpage-header h5 {
+  text-align: center;
+  font: italic normal bold 90px/120px "Playfair Display";
+  letter-spacing: 0px;
+  color: #F29D41;
+  opacity: 1;
+}
+.lab-subpage-image  {
   display: grid;
   grid-column: 5 / 9;
-  grid-row: 1;
-  align-items: center;
-  justify-items: center;
-  align-content: center;
-  margin-top: 200px;
+  grid-row: 2;
+} 
+.lab-subpage-main-second {
+  text-align: left;
+  font: normal normal normal 20px/33px "Open Sans";
+  letter-spacing: 0px;
+  color: #707070;
+  margin-bottom: 70px;
+  display: grid;
+  grid-row: 3;
+  grid-column: 1/9;
 }
 
-.history-content-pracownia h5 {
-  text-align: left;
-  font: italic normal bold 90px/120px Playfair Display;
-  letter-spacing: 0px;
-  color: #f29d41;
-  opacity: 1;
-  grid-row: 1;
-  margin-bottom: 80px;
-}
-.history-content-pracownia-cd {
+.lab-background {
   display: grid;
-  grid-column: 1 / 9;
-  width: 100%;
-  margin-top: 50px;
-  background: url(/images/half-logo-mirror.png);
+grid-column: 1/9;
+  background-image: url(/images/half-logo.png);
+  background-position-x: left;
   background-repeat: no-repeat;
-  background-position: right;
-} */
+  background-position-y: center;
+}
