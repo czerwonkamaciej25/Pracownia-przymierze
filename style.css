@@ -6,9 +6,9 @@
   --brand-orange-bg-light: #eaddcd;
 }
 
-/* * {
+* {
   border: red solid 1px;
-} */
+}
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -661,7 +661,7 @@ h5 {
  
 }
 .footer-content-data .right {
-  grid-column: 8/9;
+  grid-column: 7/9;
   border-left: 1px solid #707070;
   padding-left: 24px;
   padding-top: 24px;
