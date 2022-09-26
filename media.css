@@ -42,11 +42,12 @@
     grid-column: 6 / 9;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+
     .content {
       display: grid;
-      grid-template-columns: repeat(4, 64px);
-      column-gap: 10px;
+      grid-template-columns: repeat(4, 65px);
+      column-gap: 10px;justify-items: center;
     }
   
     .wrapper {
@@ -56,7 +57,7 @@
   
     .inner-wrapper {
       display: grid;
-      grid-template-columns: repeat(4, 64px);
+      grid-template-columns: repeat(4, 65px);
       column-gap: 10px;
     }
   }

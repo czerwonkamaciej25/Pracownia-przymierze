@@ -6,9 +6,9 @@
   --brand-orange-bg-light: #eaddcd;
 }
 
-* {
+/* * {
   border: red solid 1px;
-}
+} */
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -203,8 +203,9 @@ header ul li:last-of-type {
   opacity: 0.9;
   width: 269px;
   height: 55px;
+  border: none;
 }
-.hero .contact .call-number a {
+.call-number a {
   text-align: center;
   font: italic normal normal 20px/33px Open Sans;
   letter-spacing: 0px;
@@ -216,11 +217,12 @@ header ul li:last-of-type {
   display: grid;
   grid-column: 3/5;
   align-items: center;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  background: #ffffff;
   border-radius: 30px;
   opacity: 0.9;
   width: 269px;
   height: 55px;
+  border: none;
 }
 .hero .contact .location a {
   text-align: center;
@@ -231,13 +233,10 @@ header ul li:last-of-type {
   margin: 0;
   text-decoration: none;
 }
-.contact a:hover {
-  align-items: center;
-  background: #dcdcdc 0% 0% no-repeat padding-box;
-  border-radius: 30px;
-  opacity: 0.9;
-  width: 269px;
-  height: 55px;
+.call-number:hover {
+  background: rgb(162, 89, 0);
+  border: rgb(207, 129, 33);
+  color: #ce2222;
 }
 
 /* Specialties */
@@ -665,6 +664,17 @@ h5 {
   border-left: 1px solid #707070;
   padding-left: 24px;
   padding-top: 24px;
+
+}
+.footer-content-data .right a {
+text-decoration: none;
+text-align: left;
+font: normal normal normal 20px/33px "Open Sans";
+letter-spacing: 0px;
+color: #965506;
+}
+.footer-content-data .right a:hover {
+  color: var(--brand-orange-text);
 }
 
 .footer-content-data ul {
@@ -776,7 +786,7 @@ input:focus {
   border-color: #965506;
   box-shadow: 0 0 10px #e5b171;
 }
-.textarea:focus {
+textarea:focus {
   outline: none !important;
   border-color: #965506;
   box-shadow: 0 0 10px #e5b171;
