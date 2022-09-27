@@ -43,21 +43,128 @@
   }
 }
 @media screen and (max-width: 450px) {
-
-    .content {
-      display: grid;
-      grid-template-columns: repeat(4, 65px);
-      column-gap: 10px;justify-items: center;
-    }
-  
-    .wrapper {
-      display: grid;
-      grid-column: 1 / 4;
-    }
-  
-    .inner-wrapper {
-      display: grid;
-      grid-template-columns: repeat(4, 65px);
-      column-gap: 10px;
-    }
+  .content {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    column-gap: 10px;
+    justify-items: center;
   }
+
+  .wrapper {
+    display: grid;
+    grid-column: 1 / 6;
+  }
+
+  .inner-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    column-gap: 10px;
+  }
+  header {
+    height: 85px;
+  }
+  header .title {
+    grid-column: 1 / 2;
+    font-size: 30px;
+  }
+  header .page-logo-web {
+    display: none;
+  }
+  header .page-logo-mobile {
+    align-self: center;
+    /* width: 96px; */
+    display: grid;
+    grid-column: 3 / 4;
+    margin-top: 10px;
+    z-index: 2;
+  }
+  .hero .company-name {
+    display: grid;
+    grid-column: 1 / 5;
+    z-index: 1;
+    margin-top: 40px;
+  }
+  .hero .company-name h1 {
+    text-align: center;
+    font: normal normal 600 20px/27px "Open Sans";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  .hero .contact {
+    display: grid;
+    grid-column: 2/4;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px;
+  }
+  .hero .contact .call-number {
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+  .hero .contact .location {
+    grid-column: 1/4;
+    grid-row: 2;
+  }
+
+
+  .specialties  {
+  height: 800px;
+  }
+
+  .specialties .title {
+    display: grid;
+    grid-column: 1 / 5;
+  }
+  .specialties .title h3 {
+    text-align: center;
+    font: italic normal bold 20px/27px "Playfair Display";
+    display: flex;
+    width: 233px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .specialties .specialties-list {
+    display: grid;
+    grid-column: 1/5;
+  }
+  
+  .specialties .specialties-list ul {
+    display: grid;
+    width: 100%;
+  }
+  .row1-item1 {
+    grid-row: 1;
+    
+  }
+  .row1-item2 {
+    grid-row: 1;
+  }
+
+  .history .history-content {
+    display: grid;
+    grid-column: 1 / 6;
+    width: 100%;
+    margin-top: 150px;
+  }
+  .history .history-content h5  {
+    font: italic normal bold 30px/40px "Playfair Display";
+  }
+  .history p {
+    font: normal normal normal 16px/28px "Open Sans";
+  }
+  .history .portret {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    align-items:center;
+    justify-items: stretch;
+  }
+  .history .read-more {
+    display: grid;
+    grid-column: 2 / 5;
+    width: 100%;
+  }
+}
