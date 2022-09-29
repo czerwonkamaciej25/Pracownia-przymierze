@@ -88,7 +88,7 @@
     text-align: center;
     font: normal normal 600 20px/27px "Open Sans";
     letter-spacing: 0px;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 1;
   }
   .hero .contact {
@@ -107,9 +107,11 @@
     grid-row: 2;
   }
 
+  /* Specialties */
 
-  .specialties  {
-  height: 800px;
+  .specialties {
+    height: 1000px;
+    align-items: flex-start;
   }
 
   .specialties .title {
@@ -122,7 +124,7 @@
     display: flex;
     width: 233px;
     height: 80px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
 
@@ -130,38 +132,48 @@
     display: grid;
     grid-column: 1/5;
   }
-  
+
   .specialties .specialties-list ul {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
   }
-  .row1-item1 {
-    grid-row: 1;
-    
-  }
-  .row1-item2 {
-    grid-row: 1;
+  .specialties .specialties-list li {
+    margin-bottom: 20px;
   }
 
+  /* history */
+  .history-background {
+    background: url(/images/background-wave-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: static;
+  }
   .history .history-content {
     display: grid;
-    grid-column: 1 / 6;
+    grid-column: 1 / 4;
     width: 100%;
     margin-top: 150px;
   }
-  .history .history-content h5  {
+  .history .history-content h5 {
     font: italic normal bold 30px/40px "Playfair Display";
   }
   .history p {
     font: normal normal normal 16px/28px "Open Sans";
   }
-  .history .portret {
-    display: grid;
-    grid-column: 1 / 4;
-    grid-row: 1;
-    align-items:center;
-    justify-items: stretch;
+  .history .portret-web {
+    display: none;
   }
+  .history .portret-mobile {
+    display: grid;
+    grid-column: 1 / 6;
+    grid-row: 1;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+  }
+
   .history .read-more {
     display: grid;
     grid-column: 2 / 5;
