@@ -150,14 +150,34 @@
     width: 100%;
     position: static;
   }
+  .history {
+    height: 1800px;
+  }
   .history .history-content {
     display: grid;
-    grid-column: 1 / 4;
+    grid-column: 1 / 5;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 0px;
+  }
+  .history-content-main {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 80px);
+    grid-gap: 10px;
+  }
+  .history-content-main-h5 {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1/5;
   }
   .history .history-content h5 {
     font: italic normal bold 30px/40px "Playfair Display";
+    margin-left: 35px;
+  }
+  .history-content-main-p {
+    display: grid;
+    grid-row: 3;
+    grid-column: 1/5;
   }
   .history p {
     font: normal normal normal 16px/28px "Open Sans";
@@ -167,16 +187,180 @@
   }
   .history .portret-mobile {
     display: grid;
-    grid-column: 1 / 6;
-    grid-row: 1;
+    grid-column: 1 / 5;
+    grid-row: 2;
     align-items: center;
     justify-items: center;
-    margin-top: 50px;
+    margin-bottom: 30px;
   }
-
   .history .read-more {
     display: grid;
     grid-column: 2 / 5;
+    grid-row: 4;
     width: 100%;
+  }
+
+  .pracownia {
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 5;
+  }
+  .learn-more-1 {
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 6;
+    justify-items: end;
+  }
+  .pracownia,
+  .przymierze h5 {
+    margin-top: 60px;
+  }
+  .przymierze {
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 7;
+  }
+  .learn-more-2 {
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 8;
+    justify-items: end;
+  }
+  .quote-1 {
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 9;
+    margin-top: 0px;
+  }
+
+  .history .history-content .quote-1 h5 {
+    text-align: left;
+    font: normal normal normal 35px/47px "Playfair Display";
+    margin: 0;
+  }
+  .history .history-content .quote-1 p {
+    text-align: end;
+    font: normal normal normal 20px/33px Open Sans;
+  }
+  .history .history-content .quote-1 hr {
+    border: 1px solid #f29d41;
+    width: 250px;
+  }
+
+  /* psychoterapia */
+
+  .psychotherapy {
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .psychotherapy-content {
+    display: none;
+  }
+  .psychotherapy-content-mobile {
+    background-image: url(/images/Group\ 34.png);
+    display: grid;
+    grid-column: 1 / 5;
+    width: 100%;
+    margin-top: 0px;
+    align-items: center;
+    justify-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .psychotherapy-content-mobile h5 {
+    text-align: center;
+    font: italic normal bold 30px/40px Playfair Display;
+    letter-spacing: 0px;
+    color: #f29d41;
+    opacity: 1;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  .psychotherapy-content-mobile p {
+    text-align: left;
+    font: normal normal normal 16px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+  }
+  .psychotherapy-content-mobile button {
+    width: 273px;
+    height: 39px;
+    border: 3px solid var(--unnamed-color-965506);
+    border: 3px solid #965506;
+    border-radius: 30px;
+    opacity: 1;
+    margin-top: 30px;
+  }
+  .psychotherapy-content-mobile a {
+    font: normal normal normal 20px/27px "Open Sans";
+    letter-spacing: 0px;
+    color: #965506;
+    opacity: 1;
+    text-decoration: none;
+  }
+
+  /* making an appointment */
+
+  .visit {
+    height: 1000px;
+    align-items: flex-start;
+  }
+  .visit-content {
+    grid-column: 1 / 5;
+    height: 900px;
+    align-items: start;
+  }
+  .visit-content h7 {
+    text-align: center;
+    font: normal normal normal 25px/33px "Playfair Display";
+    color: #965506;
+    margin-top: 0px;
+  }
+  .visit-content p {
+    text-align: left;
+    font: normal normal normal 20px/33px "Open Sans";
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin: 10px 0 30px;
+  }
+  .quote-2 {
+    height:800px;
+  }
+  .quote-2-content {
+    display: grid;
+    grid-column: 1 / 5;
+    height: 100%;
+    margin-top: 100px;
+  }
+  .quote-2 .quote-2-content h7 {
+    text-align: left;
+    font: normal normal normal 30px/40px "Playfair Display";
+    letter-spacing: 0px;
+    color: #f29d41;
+    opacity: 1;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .quote-2-content p {
+    text-align: end;
+    font: normal normal normal 20px/33px Open Sans;
+  }
+  .diseases {
+    height: 1000px;
+  }
+  .diseases-content {
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 6/8;
+    margin-top: 80px;
   }
 }

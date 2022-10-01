@@ -6,9 +6,9 @@
   --brand-orange-bg-light: #eaddcd;
 }
 
-* {
+/* * {
   border: red solid 1px;
-}
+} */
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -324,7 +324,7 @@ header ul li:last-of-type {
   display: grid;
   grid-column: 1 / 9;
   width: 100%;
-  margin-top: 100px;  
+  margin-top: 100px;
 }
 .history-content-main {
   display: grid;
@@ -363,7 +363,6 @@ header ul li:last-of-type {
   grid-row: 2;
   align-items: flex-start;
   justify-items: end;
-
 }
 .history .portret-mobile {
   display: none;
@@ -390,12 +389,16 @@ header ul li:last-of-type {
 }
 .pracownia {
   display: grid;
-  grid-column: 1 / 4;
-  grid-row: 3/5;
-  margin-top: 50px;
+  grid-column: 1 / 5;
+  grid-row: 4;
 }
-.pracownia button {
-  
+.learn-more-1 {
+  display: grid;
+  grid-column: 1 / 5;
+  grid-row: 5;
+  justify-items: end;
+}
+.learn-more-1 button {
   width: 273px;
   height: 39px;
   border: 3px solid var(--unnamed-color-965506);
@@ -407,11 +410,15 @@ header ul li:last-of-type {
 .przymierze {
   display: grid;
   grid-column: 5 / 9;
-  grid-row: 3/5;
-  margin-top: 50px;
+  grid-row: 4;
 }
-
-.przymierze button {
+.learn-more-2 {
+  display: grid;
+  grid-column: 5 / 9;
+  grid-row: 5;
+  justify-items: end;
+}
+.learn-more-2 button {
   width: 273px;
   height: 39px;
   border: 3px solid var(--unnamed-color-965506);
@@ -420,27 +427,51 @@ header ul li:last-of-type {
   opacity: 1;
 }
 
+.read-more button:hover,
+.learn-more-1 button:hover,
+.learn-more-2 button:hover,
+.learn-more-psychotherapy button:hover,
+.registration button:hover {
+  background: rgb(208, 179, 144);
+  color: #ffffff;
+}
+
 .quote-1 {
   display: grid;
   grid-column: 1 / 9;
-  grid-row: 6/8;
+  grid-row: 6;
   margin-top: 100px;
+
+  
 }
-.quote-1 h5 {
+.history .history-content .quote-1 h5 {
   text-align: center;
   font: normal normal normal 70px/94px "Playfair Display";
   letter-spacing: 0px;
   color: #f29d41;
   opacity: 1;
 }
-.quote-1 p {
+.history .history-content .quote-1 p {
   text-align: center;
   font: normal normal normal 30px/33px Open Sans;
   letter-spacing: 0px;
   color: #707070;
   opacity: 1;
 }
-
+.history .history-content .quote-1 hr {
+  border: 1px solid #F29D41;
+  width: 850px;
+}
+hr{
+  align-self: center;
+}
+/* .quotation-marks {
+  text-align: left;
+  font: normal normal bold 450px/0px Perpetua Titling MT;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+} */
 /* psychoterapia */
 .psychotherapy {
   height: 1300px;
@@ -462,6 +493,9 @@ header ul li:last-of-type {
   background-size: initial;
   background-position: top;
 }
+.psychotherapy-content-mobile {
+  display: none;
+}
 .psychotherapy-content h5 {
   text-align: center;
   font: italic normal bold 60px/80px "Playfair Display";
@@ -478,7 +512,10 @@ header ul li:last-of-type {
   opacity: 1;
   margin-top: 10px;
 }
-.psychotherapy-content button {
+.learn-more-psychotherapy {
+  text-align: right;
+}
+.learn-more-psychotherapy button {
   width: 273px;
   height: 39px;
   border: 3px solid var(--unnamed-color-965506);
@@ -521,12 +558,19 @@ header ul li:last-of-type {
   flex-direction: column;
   align-items: center;
 }
-
+.visit-content h7 {
+  text-align: center;
+  font: normal normal normal 45px/60px "Playfair Display";
+  letter-spacing: 0px;
+  color: #965506;
+  opacity: 1;
+  margin-top: 20px;
+}
 .visit-content h6 {
   text-align: center;
   font: normal normal normal 30px/40px "Playfair Display";
   letter-spacing: 0px;
-  color: #f29d41;
+  color: #965506;
   opacity: 1;
   margin-top: 15px;
 }
@@ -538,7 +582,7 @@ header ul li:last-of-type {
   opacity: 1;
   margin: 30px;
 }
-.visit-content button {
+.visit-content .registration button {
   width: 273px;
   height: 39px;
   border: 3px solid var(--unnamed-color-965506);
@@ -546,7 +590,7 @@ header ul li:last-of-type {
   border-radius: 30px;
   opacity: 1;
 }
-.visit-content a {
+.visit-content .registration a {
   font: normal normal normal 20px/27px "Open Sans";
   letter-spacing: 0px;
   color: #965506;
@@ -562,7 +606,6 @@ header ul li:last-of-type {
   height: 1100px;
   background-position: center;
   width: 100%;
-  height: 583px;
   background: #eaddcd 0% 0% no-repeat padding-box;
   opacity: 1;
   display: flex;
@@ -573,10 +616,14 @@ header ul li:last-of-type {
 .quote-2-content {
   display: grid;
   grid-column: 1 / 9;
-  grid-row: 6/8;
+  height: 100%;
   margin-top: 100px;
   z-index: 3;
   justify-content: center;
+  /* background-image: url(/images/Group\ 94.png); */
+  background-position: center;
+  background-size:auto ;
+  background-repeat: no-repeat;
 }
 
 .quote-2 .quote-2-content h7 {
@@ -609,7 +656,6 @@ header ul li:last-of-type {
 .diseases-content {
   display: grid;
   grid-column: 1 / 9;
-  grid-row: 6/8;
   margin-top: 80px;
 }
 
