@@ -441,8 +441,6 @@ header ul li:last-of-type {
   grid-column: 1 / 9;
   grid-row: 6;
   margin-top: 100px;
-
-  
 }
 .history .history-content .quote-1 h5 {
   text-align: center;
@@ -603,7 +601,7 @@ hr{
 /* quote 2 */
 
 .quote-2 {
-  height: 1100px;
+  height: 500px;
   background-position: center;
   width: 100%;
   background: #eaddcd 0% 0% no-repeat padding-box;
@@ -617,7 +615,7 @@ hr{
   display: grid;
   grid-column: 1 / 9;
   height: 100%;
-  margin-top: 100px;
+  
   z-index: 3;
   justify-content: center;
   /* background-image: url(/images/Group\ 94.png); */
@@ -707,8 +705,10 @@ hr{
   display: flex;
   justify-content: center;
 }
-.footer .company-name {
-  width: 100%;
+.footer-header {
+  display: grid;
+}
+.footer .footer-header h8 {
   margin-top: 22px;
   margin-bottom: 27px;
   font-size: 50px;
@@ -722,6 +722,7 @@ hr{
 .footer-content-data {
   display: grid;
   grid-template-columns: repeat(8, 122px);
+  grid-template-rows: auto;
   column-gap: 16px;
 }
 

@@ -107,6 +107,68 @@
     grid-row: 2;
   }
 
+
+.inner-wrapper .nav-web ul li{
+  display: none;
+}
+
+.second-navigation{
+  display: none;
+}
+
+.hamburger-btn {
+  display: grid;
+  grid-column: 4/5;
+  grid-row: 1;
+  justify-items: end;
+}
+.menu-btn {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu-btn span {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+}
+
+.side-drawer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(29, 26, 27);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.side-drawer ul {
+  list-style: none;
+  margin: 0;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-drawer li {
+  margin: 1rem 0;
+}
+
+.side-drawer a {
+  color: rgb(253, 239, 213);
+  font-size: 2rem;
+}
+
+
+
+
+
+
+  
   /* Specialties */
 
   .specialties {
@@ -172,7 +234,7 @@
   }
   .history .history-content h5 {
     font: italic normal bold 30px/40px "Playfair Display";
-    margin-left: 35px;
+
   }
   .history-content-main-p {
     display: grid;
@@ -310,19 +372,19 @@
   /* making an appointment */
 
   .visit {
-    height: 1000px;
+    height: 850px;
     align-items: flex-start;
   }
   .visit-content {
     grid-column: 1 / 5;
-    height: 900px;
+    height: 800px;
     align-items: start;
   }
   .visit-content h7 {
     text-align: center;
     font: normal normal normal 25px/33px "Playfair Display";
     color: #965506;
-    margin-top: 0px;
+    margin-top: 50px;
   }
   .visit-content p {
     text-align: left;
@@ -333,13 +395,14 @@
     margin: 10px 0 30px;
   }
   .quote-2 {
-    height:800px;
+    height:600px;
   }
   .quote-2-content {
     display: grid;
     grid-column: 1 / 5;
     height: 100%;
-    margin-top: 100px;
+    align-items: center;
+    margin-top: 0px;
   }
   .quote-2 .quote-2-content h7 {
     text-align: left;
@@ -355,12 +418,63 @@
     font: normal normal normal 20px/33px Open Sans;
   }
   .diseases {
-    height: 1000px;
+    height: 900px;
   }
   .diseases-content {
     display: grid;
     grid-column: 1 / 5;
-    grid-row: 6/8;
-    margin-top: 80px;
+    margin-top: 10px;
+  }
+  .diseases-list ul li {
+    text-align: left;
+    font: normal normal normal 14px/33px "Open Sans";
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+  }
+
+
+  .footer-white-background {
+    height: 65px;
+    background-position: center;
+    width: 100%;
+    background: #ffffff;
+    z-index: 2;
+  }
+
+
+  
+  .footer-content {
+    display: grid;
+    grid-column: 1 / 5;
+    align-items: center;
+  }
+  .footer-content-data {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: auto;
+    column-gap: 10px;
+  }
+  .footer-content-data .left {
+    grid-column: 1/5;
+  }
+  .footer-content-data .center {
+    grid-column: 1/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+  .bold-center {
+    font: normal normal normal 16px/33px "Open Sans";
+    letter-spacing: 0px;
+    color: #965506;
+    opacity: 1;
+    text-align: left;
+  }
+  .footer-content-data ul li {
+    text-align: left;
+    font: normal normal normal 16px/33px "Open Sans";
   }
 }
