@@ -27,7 +27,12 @@
   position: static;
   height: 1700px;
 }
-
+.company-name-mobile {
+  display: none;
+}
+.contact-mobile {
+  display: none;
+}
 .history-content-aboutme {
   display: grid;
   grid-column: 1 / 6;
@@ -328,7 +333,7 @@
   grid-column: 1 / 9;
   width: 100%;
 }
-.covenant-subpage-main  {
+.covenant-subpage-main   {
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
@@ -348,6 +353,12 @@
 }
 .covenant-subpage-image {
   text-align: center;
+}
+.covenant-subpage-image-web {
+  text-align: center;
+}
+.covenant-subpage-image-mobile {
+  display: none;
 }
 .lab {
   height: 1600px;

@@ -6,9 +6,9 @@
   --brand-orange-bg-light: #eaddcd;
 }
 
-/* * {
+* {
   border: red solid 1px;
-} */
+}
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -867,7 +867,11 @@ textarea:focus {
   box-shadow: 0 0 10px #e5b171;
 }
 
-.google-maps {
+.google-maps-web {
   margin-top: 50px;
   margin-bottom: 100px;
+}
+
+.google-maps-mobile {
+  display: none;
 }

@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/style-subpage.css">
+    <link rel="stylesheet" href="/media.css">
   </head>
   <body class="d-flex flex-column">
     <div class="navigation">
@@ -19,12 +20,18 @@
         <div class="wrapper">
           <header class="inner-wrapper">
             <div class="title"><a href="/index.html">Przymierze</a></div>
-            <div class="page-logo">
+            <div class="page-logo-web">
               <a href="/index.html"
                 ><img src="/images/Group 80.png" alt=""
               /></a>
             </div>
-            <nav class="">
+            <div class="page-logo-mobile">
+              <a href="/index.html"
+                ><img src="/images/mobile_logo.png" alt=""
+              /></a>
+            </div>
+      
+            <nav class="nav-web">
               <ul class="d-flex">
                 <li><a href="/aboutme.html">o mnie</a></li>
                 <li><a href="/contact.html">kontakt</a></li>
@@ -32,6 +39,23 @@
                 <li><a href="/pricelist.html">cennik</a></li>
               </ul>
             </nav>
+          <div class="hamburger-btn">
+            <a href="" class="menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+          <!-- <aside class="side-drawer">
+            <nav class="nav-mobile">
+              <ul>
+                <li><a href="/aboutme.html">o mnie</a></li>
+                <li><a href="/contact.html">kontakt</a></li>
+                <li><a href="/deadlines.html">terminy</a></li>
+                <li><a href="/pricelist.html">cennik</a></li>
+              </ul>
+            </nav>
+          </aside> -->
           </header>
         </div>
       </div>
@@ -58,6 +82,19 @@
       <div class="content">
         <div class="wrapper">
           <div class="inner-wrapper">
+            <div class="company-name-mobile">
+              <h1>
+                Pracownia Psychoterapii i Rozwoju<br />
+                – <br />
+                Przemysław Traczyński
+              </h1>
+            </div>
+            <div class="contact-mobile">
+              <button class="call-number">
+                <a href="tel:505 420 127">505 420 127</a>
+              </button>
+              <button class="location"><a href="https://www.google.com/maps/place/Aria%C5%84ska+13,+31-505+Krak%C3%B3w/@50.0669441,19.9525549,17z/data=!3m1!4b1!4m5!3m4!1s0x47165b18fbfaf0c5:0xc952f008d0110317!8m2!3d50.0669441!4d19.9547436?hl=pl">jak dojechać</a></button>
+            </div>
           </div>
         </div>
       </div>
@@ -87,7 +124,8 @@
                         <br><br>
                       </p>
                     </div>
-                    <div class="covenant-subpage-image"> <img src="/images/Component 9 – 1.png" alt=""> </div>
+                    <div class="covenant-subpage-image-web"> <img src="/images/Component 9 – 1.png" alt=""> </div>
+                    <div class="covenant-subpage-image-mobile"> <img src="/images/Group 91.png" alt=""> </div>
                 </div>
                 </div>
               </div>
@@ -95,69 +133,73 @@
           </div>
         </div>
 
-      <div class="footer-white-background-subpage">         
-        <div class="footer-logo">
-        <img src="/images/Group 28.png" alt=""/>
+        <div class="footer-white-background">         
+          <div class="footer-logo">
+          <img src="/images/Group 28.png" alt=""/>
+          </div>
         </div>
-      </div>
-      <div class="footer">
-        <div class="content">
-          <div class="wrapper">
-            <div class="inner-wrapper">
-              <div class="footer-content">
-                <h1 class="company-name">Przymierze</h1>
-                
-                <div class="footer-content-data">
-                  <ul class="left">
-                   <li> <div class="bold-left"> Przemysław Traczyński</div></li>
-                   <li>Ariańska 13/18</li>
-                   <li>31-505 Kraków</li> 
-                   <li>Tel. +48 505 420 127</li>
-                   <li>Mail: przemek.traczynski@gmail.com</li>  
-                  </ul>
-                  <ul class="center">
-                    <li><img src="/images/Icon metro-facebook.png" alt=""></li>
-                    <li><div class="bold-center"> Godziny otwarcia: <br> poniedziałek -piątek: 10.00-20.00 </div></li>
-                  </ul>
-                  <ul class="right">
-                    <li>przymierze</li>
-                    <li>pracownia</li>
-                    <li>psychoterapia</li>
-                    <li>o mnie</li>
-                    <li>terminarz</li>
-                    <li>cennik</li>
-                  </ul>
-                </div>
-    
-                <div class="contact-me">
-                  <h4>Skontaktuj się ze mną</h4>
-                  <div class="input-row">
-                    <div class="text-input">
-                      <label for="name">Imię</label>
-                      <input type="text" id="name" name="name">
-                    </div>
-                    <div class="text-input">
-                      <label for="email">E-mail</label>
-                      <input type="text" id="email" name="email">
-                    </div>
+        <div class="footer">
+          <div class="content">
+            <div class="wrapper">
+              <div class="inner-wrapper">
+                <div class="footer-content">
+               
+                  <div class="footer-header"> <h8>Przymierze</h8>  </div>
+                  
+                  <div class="footer-content-data">
+                    <ul class="left">
+                     <li> <div class="bold-left"> Przemysław Traczyński</div></li>
+                     <li>Ariańska 13/18</li>
+                     <li>31-505 Kraków</li> 
+                     <li>Tel. +48 505 420 127</li>
+                     <li>Mail: przemek.traczynski@gmail.com</li>  
+                    </ul>
+                    <ul class="center">
+                      <li><a href="https://www.facebook.com/profile.php?id=100082237253727"><img src="/images/Icon metro-facebook.png" alt=""></a></li>
+                      <li><div class="bold-center"> Godziny otwarcia: <br> poniedziałek - piątek: 10.00-20.00 </div></li>
+                    </ul>
+                    <ul class="right">
+                      <li><a href="/przymierze.html">przymierze</a></li>
+                      <li><a href="/pracownia.html">pracownia</a></li>
+                      <li><a href="/psychoterapia.html">psychoterapia</a></li>
+                      <li><a href="/aboutme.html">o mnie</a></li>
+                      <li><a href="/deadlines.html">terminarz</a></li>
+                      <li><a href="/pricelist.html">cennik</a></li>
+                    </ul>
                   </div>
-                  <div class="input-row">
-                    <div class="text-area-input">
-                      <label for="message">Wiadomość</label>
-                      <textarea id="message" name="message"></textarea>
+      
+                  <div class="contact-me">
+                    <h4>Skontaktuj się ze mną</h4>
+                    <div class="input-row">
+                      <div class="text-input">
+                        <label for="name">Imię</label>
+                        <input type="text" id="name" name="name">
+                      </div>
+                      <div class="text-input">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email">
+                      </div>
                     </div>
+                    <div class="input-row">
+                      <div class="text-area-input">
+                        <label for="message">Wiadomość</label>
+                        <textarea id="message" name="message"></textarea>
+                      </div>
+                    </div>
+                    <input type="hidden" name="action" value="sendEmail" />
+                    <button id="submit" name="submit" type="submit" value="Send" class="button send-button">Wyślij</button>
                   </div>
-                  <input type="hidden" name="action" value="sendEmail" />
-                  <button id="submit" name="submit" type="submit" value="Send" class="button send-button">Wyślij</button>
-                </div>
-                <div class="google-maps">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.0327919039564!2d19.952554916280558!3d50.066947522803495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b18fbfaf0c5%3A0xc952f008d0110317!2sAria%C5%84ska%2013%2C%2031-505%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1663162016537!5m2!1spl!2spl" width="1088" height="232" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                  <div class="google-maps-web">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10244.1318986736!2d19.9547436!3d50.0669441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95341acf10148a66!2sPRZYMIERZE.%20Pracownia%20Psychoterapii%20i%20Rozwoju%20-%20Przemys%C5%82aw%20Traczy%C5%84ski!5e0!3m2!1spl!2spl!4v1664742339589!5m2!1spl!2spl" width="1088" height="232" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                  <div class="google-maps-mobile">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10244.1318986736!2d19.9547436!3d50.0669441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95341acf10148a66!2sPRZYMIERZE.%20Pracownia%20Psychoterapii%20i%20Rozwoju%20-%20Przemys%C5%82aw%20Traczy%C5%84ski!5e0!3m2!1spl!2spl!4v1664742339589!5m2!1spl!2spl" width="100%" height="232" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
