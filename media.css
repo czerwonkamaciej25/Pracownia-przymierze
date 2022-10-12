@@ -112,7 +112,8 @@
   }
 
   .inner-wrapper .navbar .navbar-links {
-    /* display: none; */
+    display: none;
+    position: absolute;
   }
 
   .second-navigation {
@@ -121,6 +122,18 @@
 
 .toggle-btn {
   display: flex;
+  cursor: pointer;
+}
+
+.navbar-links-mobile {
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  top: 51px;
+  right: 0px;
+  z-index: 100;
 }
 
 nav .navbar {

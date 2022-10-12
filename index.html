@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/style-subpage.css">
     <link rel="stylesheet" href="/media.css">
+    <script src="scripts.js"></script>
   </head>
   <body class="d-flex flex-column">
     <div class="navigation">
@@ -33,35 +34,40 @@
       
             <nav class="navbar">
     
-                <a href="#" class="toggle-btn">
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                </a>
+              <div class="toggle-btn" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
 
               <div class="navbar-links">
-              <ul class="d-flex">
-                <li><a href="/aboutme.html">o mnie</a></li>
-                <li><a href="/contact.html">kontakt</a></li>
-                <li><a href="/deadlines.html">terminy</a></li>
-                <li><a href="/pricelist.html">cennik</a></li>
-              </ul>
-            </div>
-            <!-- <div class="navbar-links-mobile">
-              <div class="hamburger-btn">
-                <a href="#" class="toggle-btn">
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                </a>
-              </div>
-                <ul class="nav-mobile">
+                <ul class="d-flex">
                   <li><a href="/aboutme.html">o mnie</a></li>
                   <li><a href="/contact.html">kontakt</a></li>
                   <li><a href="/deadlines.html">terminy</a></li>
                   <li><a href="/pricelist.html">cennik</a></li>
                 </ul>
-            </div> -->
+              </div>
+              <div id="mobile-menu" class="navbar-links-mobile">
+                <!-- <div class="hamburger-btn">
+                  <a href="#" class="toggle-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                  </a>
+                </div> -->
+                  <ul class="nav-mobile">
+                    <li><a href="/aboutme.html">o mnie</a></li>
+                    <li><a href="/contact.html">kontakt</a></li>
+                    <li><a href="/deadlines.html">terminy</a></li>
+                    <li><a href="/pricelist.html">cennik</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="/przymierze.html">przymierze</a></li>
+                    <li><a href="/pracownia.html">pracownia</a></li>
+                    <li><a href="/psychoterapia.html">psychoterapia</a></li>
+                  </ul>
+              </div>
             </nav>
           <!-- <aside class="side-drawer">
             <nav class="nav-mobile">
