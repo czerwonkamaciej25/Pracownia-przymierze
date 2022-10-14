@@ -83,9 +83,7 @@
     grid-column: 4 / 5;
     justify-content: end;
   }
-  header ul {
 
-  }
   .navbar {
     justify-content: flex-end;
   }
@@ -131,39 +129,6 @@
 .nav-web {
   display: none;
 }
-/* .toggle-btn {
-  display: flex;
-  cursor: pointer;
-}
-
-.navbar-links-mobile {
-  display: none;
-  flex-direction: column;
-  background-color: white;
-  padding: 8px;
-  position: absolute;
-  top: 51px;
-  right: 0px;
-  z-index: 100;
-}
-
-nav .navbar {
-  flex-direction: column;
-  align-items: flex-start;
-}
-.navbar-links ul {
-flex-direction: column;
-background-color: #442300;
-z-index: 6;
-} */
-/* 
-.navbar-links-mobile {
-display: inline;
-}
-
-.nav-mobile {
-  display: flex;
-} */
 
   /* Specialties */
 
@@ -546,7 +511,7 @@ display: inline;
   .hero-subpage .company-name-mobile {
     display: grid;
     grid-column: 1 / 5;
-    z-index: 1;
+    z-index: 0;
     margin-top: 40px;
   }
   .hero-subpage .company-name-mobile h1 {
@@ -789,6 +754,59 @@ display: inline;
   }
 
 
+  .contact-subpage {
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-content {
+    grid-column: 1 / 5;
+  }
+  .contact-content h5 {
+    text-align: center;
+    font: italic normal bold 60px/80px "Playfair Display";
+    margin-bottom: 20px;
+  }
+  .footer-content-data {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: auto;
+    column-gap: 10px;
+    grid-row: 2;
+  }
+  
+  .footer-content-data .left {
+    grid-column: 1/5;
+  }
+
+  
+  .contact-subpage .contact-me {
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+  }
+  .contact-subpage .contact-me .input-row {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-subpage .contact-me .input-row .text-input:nth-child(2) {
+    margin-left: 0px;
+  }
+  
+  .send-button {
+    margin-bottom: 30px;
+  }
+ 
+
 
   .calendar {
     background-position: center;
@@ -892,11 +910,11 @@ display: inline;
 #menuToggle input
 {
   display: block;
-  width: 40px;
-  height: 32px;
+  width: 50px;
+  height: 50px;
   position: absolute;
-  top: -7px;
-  left: -5px;
+  top: -10px;
+  left: -15px;
   
   cursor: pointer;
   
