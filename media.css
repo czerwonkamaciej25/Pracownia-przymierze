@@ -128,7 +128,9 @@
   .nav-web {
     display: none;
   }
-
+  [role=navigation] {
+    display: flex;
+  }
   /* Specialties */
 
   .specialties {
