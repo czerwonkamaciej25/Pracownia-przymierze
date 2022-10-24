@@ -269,10 +269,9 @@ border: none;
   text-decoration: none;
 }
 .contact button:hover {
-  background: rgb(162, 89, 0);
+  background: rgb(216, 180, 137);
   border: rgb(207, 129, 33);
   color: #ce2222;
-
 }
 
 /* Specialties */
@@ -705,7 +704,7 @@ hr{
 }
 .diseases-list ul li {
   text-align: left;
-  font: normal normal normal 20px/33px "Open Sans";
+  font: normal normal normal 16px/33px "Open Sans";
   letter-spacing: 0px;
   color: #707070;
   opacity: 1;
