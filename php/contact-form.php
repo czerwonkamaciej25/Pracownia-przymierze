@@ -17,7 +17,7 @@ if(isset($_POST["action"])) {
   $message = $_POST['message'];    // Sender's message
   $from = 'PRACOWNIA PRZYMIERZE - zgłoszenie';
   $to = 'czerwonkamaciej25@gmail.com';     // Recipient's email address
-  $subject = 'PRACOWNIA PRZYMIERZE - zgłoszenie ';
+  $subject = 'PRACOWNIA PRZYMIERZE';
 
  $body ="From: $name \n E-Mail: $email \n Phone : $phone \n Message : $message"  ;
 

@@ -506,7 +506,7 @@ border: none;
 }
 .history .history-content .quote-1 hr {
   border: 1px solid #F29D41;
-  width: 850px;
+  width: 100%;
 }
 hr{
   align-self: center;
@@ -781,7 +781,7 @@ hr{
   grid-column: 7/9;
   border-left: 1px solid #707070;
   padding-left: 24px;
-  padding-top: 24px;
+
 }
 .footer-content-data .right a {
   text-decoration: none;
@@ -851,7 +851,7 @@ hr{
   min-height: 143px;
 }
 .footer .contact-me .text-area-input textarea {
-  resize: none;
+  resize: vertical;
   width: 100%;
   min-height: 143px;
   border: none;
