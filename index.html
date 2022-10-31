@@ -10,10 +10,11 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/style-subpage.css">
-    <link rel="stylesheet" href="/media.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="/style-subpage.css" />
+    <link rel="stylesheet" href="/media.css" />
+    <!-- <script src="scripts.js"></script> -->
   </head>
   <body class="d-flex flex-column">
     <div class="navigation">
@@ -23,12 +24,12 @@
             <div class="title"><a href="/index.html">Przymierze</a></div>
             <div class="page-logo-web">
               <a href="/index.html"
-                ><img src="images/Group 80.png" alt=""
+                ><img src="images/Group 80.webp" alt=""
               /></a>
             </div>
             <div class="page-logo-mobile">
               <a href="/index.html"
-                ><img src="images/mobile_logo.png" alt=""
+                ><img src="images/mobile_logo.webp" alt=""
               /></a>
             </div>
             <nav class="nav-web">
@@ -42,22 +43,21 @@
 
             <nav role="navigation" class="nav-mobile">
               <div id="menuToggle">
-
                 <input type="checkbox" />
-                
+
                 <span></span>
                 <span></span>
                 <span></span>
-                
+
                 <ul id="menu">
                   <li><a href="/aboutme.html">o mnie</a></li>
                   <li><a href="/contact.html">kontakt</a></li>
                   <li><a href="/deadlines.html">terminy</a></li>
                   <li><a href="/pricelist.html">cennik</a></li>
-                  <hr color="#f29d41">
+                  <hr color="#f29d41" />
                   <li><a href="/przymierze.html">przymierze</a></li>
                   <li><a href="/pracownia.html">pracownia</a></li>
-                  <li><a href="/psychoterapia.html">psychoterapia</a></li></a>
+                  <li><a href="/psychoterapia.html">psychoterapia</a></li>
                 </ul>
               </div>
             </nav>
@@ -83,7 +83,15 @@
     </div>
 
     <div class="hero">
-      <video class="video-slogan" preload="metadata" src="images/pexels_6466872.mp4" autoplay loop playsinline muted></video>
+      <video
+        class="video-slogan"
+        preload="metadata"
+        src="images/pexels_6466872.mp4"
+        autoplay
+        loop
+        playsinline
+        muted
+      ></video>
       <div class="content">
         <div class="wrapper">
           <div class="inner-wrapper">
@@ -96,13 +104,18 @@
             </div>
             <div class="contact">
               <div class="call-number">
-              <button>
-                <a href="tel:505 420 127">505 420 127</a>
-              </button>
-            </div>
-            <div class="location">
-              <button ><a href="https://www.google.com/maps/place/Aria%C5%84ska+13,+31-505+Krak%C3%B3w/@50.0669441,19.9525549,17z/data=!3m1!4b1!4m5!3m4!1s0x47165b18fbfaf0c5:0xc952f008d0110317!8m2!3d50.0669441!4d19.9547436?hl=pl">jak dojechać</a></button>
-            </div>
+                <button>
+                  <a href="tel:505 420 127">505 420 127</a>
+                </button>
+              </div>
+              <div class="location">
+                <button>
+                  <a
+                    href="https://www.google.com/maps/place/Aria%C5%84ska+13,+31-505+Krak%C3%B3w/@50.0669441,19.9525549,17z/data=!3m1!4b1!4m5!3m4!1s0x47165b18fbfaf0c5:0xc952f008d0110317!8m2!3d50.0669441!4d19.9547436?hl=pl"
+                    >jak dojechać</a
+                  >
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -122,27 +135,27 @@
             <div class="specialties-list">
               <ul>
                 <li class="row1-item1">
-                  <img src="images/umysl.png" alt="" />
+                  <img src="images/umysl.webp" alt="" />
                   <h4>Umysł</h4>
                 </li>
                 <li class="row1-item2">
-                  <img src="images/osobowosc.png" alt="" />
+                  <img src="images/osobowosc.webp" alt="" />
                   <h4>Osobowość</h4>
                 </li>
                 <li class="row2-item3">
-                  <img src="images/afekt.png" alt="" />
+                  <img src="images/afekt.webp" alt="" />
                   <h4>Afekt</h4>
                 </li>
                 <li class="row2-item4">
-                  <img src="images/stresilek.png" alt="" />
+                  <img src="images/stresilek.webp" alt="" />
                   <h4>Stres i lęk</h4>
                 </li>
                 <li class="row3-item5">
-                  <img src="images/kryzys.png" alt="" />
+                  <img src="images/kryzys.webp" alt="" />
                   <h4>Kryzys</h4>
                 </li>
-                <li class="row3-item6"> 
-                  <img src="images/rozwoj.png" alt="" />
+                <li class="row3-item6">
+                  <img src="images/rozwoj.webp" alt="" />
                   <h4>Rozwój</h4>
                 </li>
               </ul>
@@ -152,265 +165,362 @@
       </div>
     </div>
 
+    <div class="history-background">
+      <div class="history">
+        <div class="content">
+          <div class="wrapper">
+            <div class="inner-wrapper">
+              <div class="history-content">
+                <div class="history-content-main">
+                  <div class="history-content-main-h5"><h5>O mnie</h5></div>
+                  <div class="history-content-main-p">
+                    <p>
+                      Jestem absolwentem Psychologii na Uniwersytecie
+                      Jagiellońskim w Krakowie. Ukończyłem czteroletnią Szkołę
+                      Psychoterapii Psychodynamicznej prowadzoną przez
+                      Krakowskie Centrum Psychodynamiczne (znajdujących się pod
+                      bezpośrednią opieką merytoryczną Dr. Piotra Drozdowskiego
+                      i szczycących się w latach świetności unikalnym, na skalę
+                      światową, podejściem do psychoterapii psychodynamicznej),
+                      uzyskując Dyplom Psychoterapeuty Psychodynamicznego.
+                      Szkoła Psychoterapii Psychodynamicznej jest rekomendowana
+                      przez Polskie Towarzystwo Psychologiczne oraz Polskie
+                      Towarzystwo Psychoterapii Psychodynamicznej. Jestem
+                      członkiem zwyczajnym Polskiego Towarzystwa Psychoterapii
+                      Psychodynamicznej.
+                    </p>
+                  </div>
+                  <div class="portret-web">
+                    <img src="images/portret.webp" alt="" />
+                  </div>
+                  <div class="portret-mobile">
+                    <img src="images/IMG_4873.webp" alt="" />
+                  </div>
 
-   <div class="history-background">
-    <div class="history">
+                  <div class="read-more">
+                    <button>
+                      <a href="/aboutme.html">CZYTAJ WIĘCEJ &#10142;</a>
+                    </button>
+                  </div>
+
+                  <div class="pracownia">
+                    <h5>Pracownia</h5>
+                    <p>
+                      Dlaczego z wielu dostępnych na rynku miejsc warto wybrać
+                      Pracownię Przymierze?
+                    </p>
+                  </div>
+
+                  <div class="learn-more-1">
+                    <button>
+                      <a href="/pracownia.html">DOWIEDŹ SIĘ WIĘCEJ &#10142;</a>
+                    </button>
+                  </div>
+
+                  <div class="przymierze">
+                    <h5>Przymierze</h5>
+                    <p>Trzy nurty Przymierza...</p>
+                  </div>
+
+                  <div class="learn-more-2">
+                    <button>
+                      <a href="/przymierze.html">DOWIEDŹ SIĘ WIĘCEJ &#10142;</a>
+                    </button>
+                  </div>
+
+                  <div class="quote-1">
+                    <hr text-align="center" />
+                    <h5>
+                      Nie stajemy się oświeceni <br />
+                      wyobrażając sobie światło, <br />
+                      lecz czyniąc ciemność świadomą.
+                    </h5>
+                    <p>Carl Gustav Jung</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="psychotherapy">
       <div class="content">
         <div class="wrapper">
           <div class="inner-wrapper">
-            <div class="history-content">
-              <div class="history-content-main">
-                <div class="history-content-main-h5"> <h5>O mnie</h5> </div>
-                <div class="history-content-main-p">
-                <p>
-                  Jestem absolwentem Psychologii na Uniwersytecie Jagiellońskim w
-                  Krakowie. Ukończyłem czteroletnią Szkołę Psychoterapii
-                  Psychodynamicznej prowadzoną przez Krakowskie Centrum
-                  Psychodynamiczne (znajdujących się pod bezpośrednią opieką
-                  merytoryczną Dr. Piotra Drozdowskiego i szczycących się w latach
-                  świetności unikalnym, na skalę światową, podejściem do
-                  psychoterapii psychodynamicznej), uzyskując Dyplom
-                  Psychoterapeuty Psychodynamicznego. Szkoła Psychoterapii
-                  Psychodynamicznej jest rekomendowana przez Polskie Towarzystwo
-                  Psychologiczne oraz Polskie Towarzystwo Psychoterapii
-                  Psychodynamicznej. Jestem członkiem zwyczajnym Polskiego
-                  Towarzystwa Psychoterapii Psychodynamicznej.
-                  </p>
-                </div>
-            <div class="portret-web">
-                <img src="images/portret.png" alt="">
-            </div>
-            <div class="portret-mobile">
-              <img src="images/IMG_4873.png" alt="">
-            </div>
-
-            <div class="read-more">
-              <button ><a href="/aboutme.html">CZYTAJ WIĘCEJ &#10142;</a></button>
-            </div>
-
-            <div class="pracownia">
-              <h5>Pracownia</h5>
-              <p>Dlaczego z wielu dostępnych na rynku miejsc warto wybrać Pracownię Przymierze?</p>
-            </div>
-
-            <div class="learn-more-1">
-              <button ><a href="/pracownia.html">DOWIEDŹ SIĘ WIĘCEJ &#10142;</a></button>
-            </div>
-
-            <div class="przymierze">
-              <h5>Przymierze</h5>
-              <p>Trzy nurty Przymierza...</p>
-            </div>
-
-            <div class="learn-more-2">
-              <button ><a href="/przymierze.html">DOWIEDŹ SIĘ WIĘCEJ &#10142;</a></button>
-            </div>
-
-            <div class="quote-1">
-              <hr text-align="center">
-              <h5> Nie stajemy się oświeceni <br> wyobrażając sobie światło, <br> lecz czyniąc ciemność świadomą.</h5>
-              <p>Carl Gustav Jung</p>
-            </div>
-          </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  
-
-  <div class="psychotherapy">
-    <div class="content">
-      <div class="wrapper">
-        <div class="inner-wrapper">
-          <div class="psychotherapy-content">
-            <h5>Psychoterapia</h5>
-            <p>Jako psychoterapeuta pracuję w nurcie psychodynamicznym, specyficznie w ujęciu uściślonym i opracowanym przez Dr. Piotra Drozdowskiego oraz środowisko psychoterapeutyczne, które w dobie współczesnych, niekoniecznie słusznych i korzystnych przemian nie uległo paradygmatycznemu sprzeniewierzeniu, pozostając zrzeszone wokół myśli oraz systemu wartości wybitnego krakowskiego psychiatry i psychoterapeuty, a skądinąd również filozofa. To, co byłoby najbardziej charakterystyczne dla wymienionego stanowiska, to przyjęcie trzech określonych zewnętrznych założeń, definiujących sposób myślenia oraz metodę pracy: <br>
-            pierwsze to przyjęcie nieświadomości, a właściwie refleksji nad człowiekiem z uwzględnieniem nieświadomości – w końcu czy znamy wiele osób, które dobrowolnie i świadomie cierpią z powodu problemów emocjonalnych i zaburzeń psychicznych, gdyż sami je wybrali, zrezygnowawszy ze zdrowia, jakkolwiek nie definiowanego?;
-            drugie to przyjęcie reguły rozdzielności sądów poznawczych od sądów powinnościowych, co jest konsekwencją uznania założeń nominalizmu, iż ze zdań opisowych nie wynikają zdania normatywne, a także przyjęcia sofizmatu naturalistycznego, zakładającego, iż z tego, że coś jest, nie wynika, że być musi, w tym znaczeniu, że ani że być powinno, ani też jakie powinno być – to wynika z czegoś zupełnie już innego – a co w niezwykle istotny sposób rzutuje na rozumienie <br> i uprawianie psychoterapii;
-              </p>
-            <div class="learn-more-psychotherapy">
-                <button ><a href="/psychoterapia.html">DOWIEDŹ SIĘ WIĘCEJ &#10142;</a></button>
-            </div>
-
-          </div>
-          <div class="psychotherapy-content-mobile">
-            <h5>Psychoterapia</h5>
-            <p>Jako psychoterapeuta pracuję w nurcie psychodynamicznym, specyficznie w ujęciu uściślonym i opracowanym przez Dr. Piotra Drozdowskiego oraz środowisko psychoterapeutyczne, które w dobie współczesnych, niekoniecznie słusznych i korzystnych przemian nie uległo paradygmatycznemu sprzeniewierzeniu, pozostając zrzeszone wokół myśli oraz systemu wartości wybitnego krakowskiego psychiatry i psychoterapeuty, a skądinąd również filozofa. To, co byłoby najbardziej charakterystyczne dla wymienionego stanowiska, to
+            <div class="psychotherapy-content">
+              <h5>Psychoterapia</h5>
+              <p>
+                Jako psychoterapeuta pracuję w nurcie psychodynamicznym,
+                specyficznie w ujęciu uściślonym i opracowanym przez Dr. Piotra
+                Drozdowskiego oraz środowisko psychoterapeutyczne, które w dobie
+                współczesnych, niekoniecznie słusznych i korzystnych przemian
+                nie uległo paradygmatycznemu sprzeniewierzeniu, pozostając
+                zrzeszone wokół myśli oraz systemu wartości wybitnego
+                krakowskiego psychiatry i psychoterapeuty, a skądinąd również
+                filozofa. To, co byłoby najbardziej charakterystyczne dla
+                wymienionego stanowiska, to przyjęcie trzech określonych
+                zewnętrznych założeń, definiujących sposób myślenia oraz metodę
+                pracy: <br />
+                pierwsze to przyjęcie nieświadomości, a właściwie refleksji nad
+                człowiekiem z uwzględnieniem nieświadomości – w końcu czy znamy
+                wiele osób, które dobrowolnie i świadomie cierpią z powodu
+                problemów emocjonalnych i zaburzeń psychicznych, gdyż sami je
+                wybrali, zrezygnowawszy ze zdrowia, jakkolwiek nie
+                definiowanego?; drugie to przyjęcie reguły rozdzielności sądów
+                poznawczych od sądów powinnościowych, co jest konsekwencją
+                uznania założeń nominalizmu, iż ze zdań opisowych nie wynikają
+                zdania normatywne, a także przyjęcia sofizmatu
+                naturalistycznego, zakładającego, iż z tego, że coś jest, nie
+                wynika, że być musi, w tym znaczeniu, że ani że być powinno, ani
+                też jakie powinno być – to wynika z czegoś zupełnie już innego –
+                a co w niezwykle istotny sposób rzutuje na rozumienie <br />
+                i uprawianie psychoterapii;
               </p>
               <div class="learn-more-psychotherapy">
-                <button ><a href="/psychoterapia.html">DOWIEDŹ SIĘ WIĘCEJ &#10142;</a></button>
+                <button>
+                  <a href="/psychoterapia.html">DOWIEDŹ SIĘ WIĘCEJ &#10142;</a>
+                </button>
+              </div>
+            </div>
+            <div class="psychotherapy-content-mobile">
+              <h5>Psychoterapia</h5>
+              <p>
+                Jako psychoterapeuta pracuję w nurcie psychodynamicznym,
+                specyficznie w ujęciu uściślonym i opracowanym przez Dr. Piotra
+                Drozdowskiego oraz środowisko psychoterapeutyczne, które w dobie
+                współczesnych, niekoniecznie słusznych i korzystnych przemian
+                nie uległo paradygmatycznemu sprzeniewierzeniu, pozostając
+                zrzeszone wokół myśli oraz systemu wartości wybitnego
+                krakowskiego psychiatry i psychoterapeuty, a skądinąd również
+                filozofa. To, co byłoby najbardziej charakterystyczne dla
+                wymienionego stanowiska, to
+              </p>
+              <div class="learn-more-psychotherapy">
+                <button>
+                  <a href="/psychoterapia.html">DOWIEDŹ SIĘ WIĘCEJ &#10142;</a>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="visit">
-    <div class="content">
-      <div class="wrapper">
-        <div class="inner-wrapper">
-          <div class="visit-content">
-            <h7>Jak umówić wizytę?</h7>
-            <ul>
-              <li>
-                <h6>1.</h6>
-                <p>Umów wizytę używając kalendarza on-line! Znajdziesz tam szybko wszystkie dostępne terminy.</p>
-                <div class="registration">
-                  <button ><a href="/deadlines.html">REJESTRACJA</a></button>
-              </div>
-              </li>
-              <li>
-                <h6>2.</h6>
-                <p>Umów wizytę telefonicznie. Wybierz poniższy numer lub kliknij buton jeśli korzystasz ze smartfona.</p>
-                <div class="registration">
-                  <button ><a href="tel:505 420 127">505 420 127</a></button>
-              </div>
-              </li>
-              <li>
-                <h6>3.</h6>
-                <p>Płatność gotówką. Sesje online - przedpłata przelewem.</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="quote-2">
-    <div class="content">
-      <div class="wrapper">
-        <div class="inner-wrapper">
-          <div class="quote-2-content">
-            <h7>Przede wszystkim nie okłamuj siebie. Kto sam przed sobą kłamie <br> i własnego kłamstwa słucha, prawdy żadnej już nie widzi ani w sobie, ani dookoła siebie, a przeto szacunek traci dla siebie i dla innych. Zasię nie szanując nikogo, kochać przestaje.</h7>
-            <p>Fiodor Dostojewski</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="diseases">
-    <div class="content">
-      <div class="wrapper">
-        <div class="inner-wrapper">
-          <div class="diseases-content">
-            <h7>Zapraszam do kontaktu osoby zmagające się z następującymi:</h7>
-            <div class="diseases-list">
-           <ul>
-            <li>Depresja</li>
-            <li>Lęki</li>
-            <li>Myśli samobójcze</li>
-            <li>Autoagresja</li>
-            <li>Kryzys emocjonalny</li>
-            <li>Zaburzenia osobowości</li>
-            <li>Stres</li>
-            <li>Zaburzenia lękowe</li>
-            <li>nerwica</li>
-          </ul>
-          <ul>
-            <li>Zaburzenia nastroju</li>
-            <li>Zaburzenia afektywne</li>
-            <li>Zaburzenia nerwicowe</li>
-            <li>Niskie poczucie właśnej  wartości</li>
-            <li>Niska samoocena</li>
-            <li>Trudności interpersonalne</li>
-            <li>Zaburzenia jedzenia</li>
-            <li>Zaburzenia odżywiania</li>
-            <li>Zaburzenia emocjonalne</li>
-          </ul>
-          <ul>
-            <li>Zaburzenia związane ze stresem</li>
-            <li>Zaburzenia seksualne</li>
-            <li>Dysforia płciowa</li>
-            <li>Problemy zawodowe</li>
-            <li>Kryzys w związku</li>
-            <li>Blokady rozwojowe</li>
-            <li>Pragnienie indywidualnego rozwoju</li>
-           </ul>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-white-background">         
-    <div class="footer-logo">
-    <img src="images/Group 28.png" alt=""/>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="content">
-      <div class="wrapper">
-        <div class="inner-wrapper">
-          <div class="footer-content">
-         
-            <div class="footer-header"> <h8>Przymierze</h8>  </div>
-            
-            <div class="footer-content-data">
-              <ul class="left">
-               <li> <div class="bold-left"> Przemysław Traczyński</div></li>
-               <li>Ariańska 13/18</li>
-               <li>31-505 Kraków</li> 
-               <li>Tel. +48 505 420 127</li>
-               <li>Mail: przemek.traczynski@gmail.com</li>  
-              </ul>
-              <ul class="center">
-                <li><a href="https://www.facebook.com/profile.php?id=100082237253727"><img src="images/Icon_facebook.png" alt=""></a></li>
-                <li><div class="bold-center"> Godziny otwarcia: <br> poniedziałek - piątek: 10.00-20.00 </div></li>
-              </ul>
-              <ul class="right">
-                <li><a href="/przymierze.html">przymierze</a></li>
-                <li><a href="/pracownia.html">pracownia</a></li>
-                <li><a href="/psychoterapia.html">psychoterapia</a></li>
-                <li><a href="/aboutme.html">o mnie</a></li>
-                <li><a href="/deadlines.html">terminarz</a></li>
-                <li><a href="/pricelist.html">cennik</a></li>
+    <div class="visit">
+      <div class="content">
+        <div class="wrapper">
+          <div class="inner-wrapper">
+            <div class="visit-content">
+              <h7>Jak umówić wizytę?</h7>
+              <ul>
+                <li>
+                  <h6>1.</h6>
+                  <p>
+                    Umów wizytę używając kalendarza on-line! Znajdziesz tam
+                    szybko wszystkie dostępne terminy.
+                  </p>
+                  <div class="registration">
+                    <button><a href="/deadlines.html">REJESTRACJA</a></button>
+                  </div>
+                </li>
+                <li>
+                  <h6>2.</h6>
+                  <p>
+                    Umów wizytę telefonicznie. Wybierz poniższy numer lub
+                    kliknij buton jeśli korzystasz ze smartfona.
+                  </p>
+                  <div class="registration">
+                    <button><a href="tel:505 420 127">505 420 127</a></button>
+                  </div>
+                </li>
+                <li>
+                  <h6>3.</h6>
+                  <p>Płatność gotówką. Sesje online - przedpłata przelewem.</p>
+                </li>
               </ul>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quote-2">
+      <div class="content">
+        <div class="wrapper">
+          <div class="inner-wrapper">
+            <div class="quote-2-content">
+              <h7
+                >Przede wszystkim nie okłamuj siebie. Kto sam przed sobą kłamie
+                <br />
+                i własnego kłamstwa słucha, prawdy żadnej już nie widzi ani w
+                sobie, ani dookoła siebie, a przeto szacunek traci dla siebie i
+                dla innych. Zasię nie szanując nikogo, kochać przestaje.</h7
+              >
+              <p>Fiodor Dostojewski</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="diseases">
+      <div class="content">
+        <div class="wrapper">
+          <div class="inner-wrapper">
+            <div class="diseases-content">
+              <h7
+                >Zapraszam do kontaktu osoby zmagające się z następującymi:</h7
+              >
+              <div class="diseases-list">
+                <ul>
+                  <li>Depresja</li>
+                  <li>Lęki</li>
+                  <li>Myśli samobójcze</li>
+                  <li>Autoagresja</li>
+                  <li>Kryzys emocjonalny</li>
+                  <li>Zaburzenia osobowości</li>
+                  <li>Stres</li>
+                  <li>Zaburzenia lękowe</li>
+                  <li>nerwica</li>
+                </ul>
+                <ul>
+                  <li>Zaburzenia nastroju</li>
+                  <li>Zaburzenia afektywne</li>
+                  <li>Zaburzenia nerwicowe</li>
+                  <li>Niskie poczucie właśnej wartości</li>
+                  <li>Niska samoocena</li>
+                  <li>Trudności interpersonalne</li>
+                  <li>Zaburzenia jedzenia</li>
+                  <li>Zaburzenia odżywiania</li>
+                  <li>Zaburzenia emocjonalne</li>
+                </ul>
+                <ul>
+                  <li>Zaburzenia związane ze stresem</li>
+                  <li>Zaburzenia seksualne</li>
+                  <li>Dysforia płciowa</li>
+                  <li>Problemy zawodowe</li>
+                  <li>Kryzys w związku</li>
+                  <li>Blokady rozwojowe</li>
+                  <li>Pragnienie indywidualnego rozwoju</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-white-background">
+      <div class="footer-logo">
+        <img src="images/Group 28.webp" alt="" />
+      </div>
+    </div>
+    <div class="footer">
+      <div class="content">
+        <div class="wrapper">
+          <div class="inner-wrapper">
+            <div class="footer-content">
+              <div class="footer-header"><h8>Przymierze</h8></div>
 
-            <div class="contact-me">
-              <h4>Skontaktuj się ze mną</h4>
-              <form id="contactform" method="post" action="../php/contact-form.php">
-              <div class="input-row">
-                
-                <div class="text-input">
-                  <label for="name">Imię</label>
-                  <input type="text" id="name" name="name">
-                </div>
-                <div class="text-input">
-                  <label for="email">E-mail</label>
-                  <input type="email" id="email" name="email">
-                </div>
+              <div class="footer-content-data">
+                <ul class="left">
+                  <li><div class="bold-left">Przemysław Traczyński</div></li>
+                  <li>Ariańska 13/18</li>
+                  <li>31-505 Kraków</li>
+                  <li>Tel. +48 505 420 127</li>
+                  <li>Mail: przemek.traczynski@gmail.com</li>
+                </ul>
+                <ul class="center">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100082237253727"
+                      ><img src="images/Icon_facebook.webp" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <div class="bold-center">
+                      Godziny otwarcia: <br />
+                      poniedziałek - piątek: 10.00-20.00
+                    </div>
+                  </li>
+                </ul>
+                <ul class="right">
+                  <li><a href="/przymierze.html">przymierze</a></li>
+                  <li><a href="/pracownia.html">pracownia</a></li>
+                  <li><a href="/psychoterapia.html">psychoterapia</a></li>
+                  <li><a href="/aboutme.html">o mnie</a></li>
+                  <li><a href="/deadlines.html">terminarz</a></li>
+                  <li><a href="/pricelist.html">cennik</a></li>
+                </ul>
               </div>
-              <div class="input-row">
-                <div class="text-area-input">
-                  <label for="message">Wiadomość</label>
-                  <textarea id="message" name="message"></textarea>
-                </div>
+              <div class="contact-me">
+                <h4>Skontaktuj się ze mną</h4>
+                <form
+                  id="contactform"
+                  method="post"
+                  action=""
+                  enctype="multipart/form-data"
+                >
+                  <div class="input-row">
+                    <div class="text-input">
+                      <label for="name">Imię</label>
+                      <input type="text" id="name" name="name" />
+                    </div>
+                    <div class="text-input">
+                      <label for="email">E-mail</label>
+                      <input type="email" id="email" name="email" />
+                    </div>
+                  </div>
+                  <div class="input-row">
+                    <div class="text-area-input">
+                      <label for="message">Wiadomość</label>
+                      <textarea id="message" name="message"></textarea>
+                    </div>
+                  </div>
+                  <input type="hidden" name="action" value="sendEmail" />
+                  <button
+                    id="submit"
+                    name="submit"
+                    type="submit"
+                    value="Send"
+                    class="button send-button"
+                    onclick="submitForm()"
+                  >
+                    Wyślij
+                  </button>
+                </form>
               </div>
-              
-              <input type="hidden" name="action" value="sendEmail" />
-              <button id="submit" name="submit" type="submit" value="Send" class="button send-button">Wyślij</button>
+              <div id="form-result"></div>
+              <div class="google-maps-web">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10244.1318986736!2d19.9547436!3d50.0669441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95341acf10148a66!2sPRZYMIERZE.%20Pracownia%20Psychoterapii%20i%20Rozwoju%20-%20Przemys%C5%82aw%20Traczy%C5%84ski!5e0!3m2!1spl!2spl!4v1664742339589!5m2!1spl!2spl"
+                  width="1088"
+                  height="232"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="google-maps-mobile">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10244.1318986736!2d19.9547436!3d50.0669441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95341acf10148a66!2sPRZYMIERZE.%20Pracownia%20Psychoterapii%20i%20Rozwoju%20-%20Przemys%C5%82aw%20Traczy%C5%84ski!5e0!3m2!1spl!2spl!4v1664742339589!5m2!1spl!2spl"
+                  width="100%"
+                  height="232"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
-          </form>
-            <div class="google-maps-web">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10244.1318986736!2d19.9547436!3d50.0669441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95341acf10148a66!2sPRZYMIERZE.%20Pracownia%20Psychoterapii%20i%20Rozwoju%20-%20Przemys%C5%82aw%20Traczy%C5%84ski!5e0!3m2!1spl!2spl!4v1664742339589!5m2!1spl!2spl" width="1088" height="232" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="google-maps-mobile">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10244.1318986736!2d19.9547436!3d50.0669441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95341acf10148a66!2sPRZYMIERZE.%20Pracownia%20Psychoterapii%20i%20Rozwoju%20-%20Przemys%C5%82aw%20Traczy%C5%84ski!5e0!3m2!1spl!2spl!4v1664742339589!5m2!1spl!2spl" width="100%" height="232" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
-></script>
+    ></script>
+    <script src="/index.js"></script>
   </body>
 </html>

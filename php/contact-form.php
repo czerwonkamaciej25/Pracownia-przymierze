@@ -1,16 +1,7 @@
-<!-- /*
-
-Template: Appino - Responsive App Landing Page
-Author: iqonicthemes.in
-Version: 1.0
-Design and Developed by: iqonicthemes.in
-
-NOTE: This is main stylesheet of template, This file contains the styling for the actual Template. Please do not change anything here! write in a custom.css file if required!
-
-*/ -->
-
 <?php
-if(isset($_POST["action"])) {
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  // process your $_POST here
   $name = $_POST['name'];                 // Sender's name
   $email = $_POST['email'];     // Sender's email address
   $phone  = $_POST['phone'];     // Sender's email address
@@ -19,15 +10,14 @@ if(isset($_POST["action"])) {
   $to = 'czerwonkamaciej25@gmail.com';     // Recipient's email address
   $subject = 'PRACOWNIA PRZYMIERZE';
 
- $body ="From: $name \n E-Mail: $email \n Phone : $phone \n Message : $message"  ;
+  $body ="From: $name \n E-Mail: $email \n Phone : $phone \n Message : $message"  ;
 
 	// init error message
-	$errmsg='';
+	$errmsg = '';
   // Check if name has been entered
   if (!$_POST['name']) {
    $errmsg = 'Please enter your name';
   }
-
 
   // Check if email has been entered and is valid
   if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
@@ -39,19 +29,24 @@ if(isset($_POST["action"])) {
    $errmsg = 'Please enter your message';
   }
 
-	$result='';
+	$result = '';
+  $status = 'success';
   // If there are no errors, send the email
   if (!$errmsg) {
 		if (mail ($to, $subject, $body, $from)) {
-			$result='<div class="alert alert-success">TThank you for contacting us. Your message has been successfully sent. We will contact you very soon!</div>';
+			$result='<div class="alert alert-success mt-2">Thank you for contacting us. Your message has been successfully sent. We will contact you very soon!</div>';
+      $status = 'success';
 		}
 		else {
-		  $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
+		  $result='<div class="alert alert-danger mt-2">Sorry there was an error sending your message. Please try again later.</div>';
+      $status = 'error';
 		}
 	}
 	else{
-		$result='<div class="alert alert-danger">'.$errmsg.'</div>';
+		$result='<div class="alert alert-danger mt-2">'.$errmsg.'</div>';
+    $status = 'error';
 	}
-	echo $result;
- }
+
+  echo json_encode(["message" => $result, "status" => $status]);
+}
 ?>

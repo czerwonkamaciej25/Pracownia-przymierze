@@ -47,7 +47,7 @@ body {
 .nav-mobile {
   display: none;
 }
-[role=navigation] {
+[role="navigation"] {
   display: none;
 }
 .toggle-btn {
@@ -68,8 +68,6 @@ body {
 .navbar-links-mobile {
   display: none;
 }
-
-
 
 header {
   height: 220px;
@@ -229,12 +227,12 @@ header ul li:last-of-type {
   align-items: center;
 }
 .call-number button {
-background: #ffffff 0% 0% no-repeat padding-box;
-border-radius: 30px;
-opacity: 0.9;
-width: 269px;
-height: 55px;
-border: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 0.9;
+  width: 269px;
+  height: 55px;
+  border: none;
 }
 
 .call-number a {
@@ -249,7 +247,6 @@ border: none;
   display: grid;
   grid-column: 3/5;
   align-items: center;
- 
 }
 .location button {
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -258,7 +255,7 @@ border: none;
   width: 269px;
   height: 55px;
   border: none;
-  }
+}
 .hero .contact .location a {
   text-align: center;
   font: italic normal normal 20px/33px Open Sans;
@@ -336,7 +333,7 @@ border: none;
 
 /* history */
 .history-background {
-  background: url(/images/Path\ 123.png);
+  background: url(/images/Path\ 123.webp);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -424,7 +421,7 @@ border: none;
   grid-column: 1 / 5;
   grid-row: 4;
 }
-.history .pracownia   h5 {
+.history .pracownia h5 {
   text-align: left;
   font: italic normal bold 60px/80px "Playfair Display";
   letter-spacing: 0px;
@@ -432,7 +429,7 @@ border: none;
   opacity: 1;
   margin-bottom: 30px;
 }
-.history .przymierze   h5 {
+.history .przymierze h5 {
   text-align: left;
   font: italic normal bold 60px/80px "Playfair Display";
   letter-spacing: 0px;
@@ -505,10 +502,10 @@ border: none;
   opacity: 1;
 }
 .history .history-content .quote-1 hr {
-  border: 1px solid #F29D41;
+  border: 1px solid #f29d41;
   width: 100%;
 }
-hr{
+hr {
   align-self: center;
 }
 
@@ -528,7 +525,7 @@ hr{
   grid-column: 1 / 9;
   grid-row: 6/8;
   margin-top: 100px;
-  background-image: url(/images/background_logo.png);
+  background-image: url(/images/background_logo.webp);
   background-repeat: no-repeat;
   background-size: initial;
   background-position: top;
@@ -657,12 +654,12 @@ hr{
   display: grid;
   grid-column: 1 / 9;
   height: 100%;
-  
+
   z-index: 3;
   justify-content: center;
-  /* background-image: url(/images/Group\ 94.png); */
+  /* background-image: url(/images/Group\ 94.webp); */
   background-position: center;
-  background-size:auto ;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -781,7 +778,6 @@ hr{
   grid-column: 7/9;
   border-left: 1px solid #707070;
   padding-left: 24px;
-
 }
 .footer-content-data .right a {
   text-decoration: none;

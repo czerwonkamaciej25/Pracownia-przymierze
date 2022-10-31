@@ -128,7 +128,7 @@
   .nav-web {
     display: none;
   }
-  [role=navigation] {
+  [role="navigation"] {
     display: flex;
   }
   /* Specialties */
@@ -168,7 +168,7 @@
 
   /* history */
   .history-background {
-    background: url(/images/background_wave_mobile.png);
+    background: url(/images/background_wave_mobile.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -287,7 +287,7 @@
     display: none;
   }
   .psychotherapy-content-mobile {
-    background-image: url(/images/Group\ 34.png);
+    background-image: url(/images/Group\ 34.webp);
     display: grid;
     grid-column: 1 / 5;
     width: 100%;
@@ -572,7 +572,7 @@
     margin: 0;
     text-decoration: none;
   }
-  
+
   /* convenant */
   .covenant-subpage {
     height: auto;
@@ -634,7 +634,7 @@
     grid-row: 2;
     grid-column: 1/5;
     padding-right: 0px;
-    background-image: url(/images/Subtraction\ 2.png);
+    background-image: url(/images/Subtraction\ 2.webp);
     background-position-x: left;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -690,7 +690,7 @@
     width: 100%;
   }
   .psychotherapy-subpage-content p {
-    background-image: url(/images/Component\ 6\ –\ 1.png);
+    background-image: url(/images/Component\ 6\ –\ 1.webp);
     background-repeat: no-repeat;
     background-position: top;
     font: normal normal normal 16px/25px "Open Sans";
@@ -717,7 +717,7 @@
 
     width: 100%;
     margin-top: 0px;
-    background: url(/images/half-logo.png);
+    background: url(/images/half-logo.webp);
     background-repeat: no-repeat;
     background-position: left;
   }
@@ -746,7 +746,7 @@
     grid-column: 1 / 5;
     width: 100%;
     margin-top: 50px;
-    background: url(/images/half_logo_mirror.png);
+    background: url(/images/half_logo_mirror.webp);
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -852,7 +852,7 @@
     column-gap: 10px;
   }
 
-  .pricelist-content  .product ul {
+  .pricelist-content .product ul {
     text-align: left;
     font: normal normal 600 15px/40px Open Sans;
     letter-spacing: 0px;
@@ -863,7 +863,7 @@
     align-items: flex-start;
     padding-left: 0;
   }
-  .pricelist-content  .price ul {
+  .pricelist-content .price ul {
     text-align: right;
     font: normal normal 600 15px/40px Open Sans;
     letter-spacing: 0px;
@@ -894,7 +894,6 @@
     grid-column: 1/5;
   }
   .price {
-
     grid-column: 4/5;
     grid-row: 2;
     display: grid;
