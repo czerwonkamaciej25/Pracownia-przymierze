@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // If there are no errors, send the email
   if (!$errmsg) {
 		if (mail ($to, $subject, $body, $from)) {
-			$result='<div class="alert alert-success mt-2">Thank you for contacting us. Your message has been successfully sent. We will contact you very soon!</div>';
+			$result='<div class="alert alert-success mt-2">Wiadomość wysłana</div>';
       $status = 'success';
 		}
 		else {

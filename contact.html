@@ -133,35 +133,45 @@
                 </ul>
               </div>
 
+
               <div class="contact-me">
                 <h4>Skontaktuj się ze mną</h4>
-                <div class="input-row">
-                  <div class="text-input">
-                    <label for="name">Imię</label>
-                    <input type="text" id="name" name="name" />
-                  </div>
-                  <div class="text-input">
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email" name="email" />
-                  </div>
-                </div>
-                <div class="input-row">
-                  <div class="text-area-input">
-                    <label for="message">Wiadomość</label>
-                    <textarea id="message" name="message"></textarea>
-                  </div>
-                </div>
-                <input type="hidden" name="action" value="sendEmail" />
-                <button
-                  id="submit"
-                  name="submit"
-                  type="submit"
-                  value="Send"
-                  class="button send-button"
+                <form
+                  id="contactform"
+                  method="post"
+                  action=""
+                  enctype="multipart/form-data"
                 >
-                  Wyślij
-                </button>
+                  <div class="input-row">
+                    <div class="text-input">
+                      <label for="name">Imię</label>
+                      <input type="text" id="name" name="name" />
+                    </div>
+                    <div class="text-input">
+                      <label for="email">E-mail</label>
+                      <input type="email" id="email" name="email" />
+                    </div>
+                  </div>
+                  <div class="input-row">
+                    <div class="text-area-input">
+                      <label for="message">Wiadomość</label>
+                      <textarea id="message" name="message"></textarea>
+                    </div>
+                  </div>
+                  <input type="hidden" name="action" value="sendEmail" />
+                  <button
+                    id="submit"
+                    name="submit"
+                    type="submit"
+                    value="Send"
+                    class="button send-button"
+                    onclick="submitForm()"
+                  >
+                    Wyślij
+                  </button>
+                </form>
               </div>
+              <div id="form-result"></div>
             </div>
           </div>
         </div>
