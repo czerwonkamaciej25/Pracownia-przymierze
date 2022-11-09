@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $phone  = $_POST['phone'];     // Sender's email address
   $message = $_POST['message'];    // Sender's message
   $from = 'PRACOWNIA PRZYMIERZE - zgłoszenie';
-  $to = 'czerwonkamaciej25@gmail.com';     // Recipient's email address
+  $to = 'przemek.traczynski@gmail.com';     // Recipient's email address
   $subject = 'PRACOWNIA PRZYMIERZE';
 
   $body ="From: $name \n E-Mail: $email \n Phone : $phone \n Message : $message"  ;
@@ -49,4 +49,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   echo json_encode(["message" => $result, "status" => $status]);
 }
-?>
