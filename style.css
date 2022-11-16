@@ -913,3 +913,17 @@ textarea:focus {
 .google-maps-mobile {
   display: none;
 }
+.text-green , .text-politics {
+  color:#965506 ;
+  text-align: center;
+}
+.text-green:hover , .text-politics:hover {
+  color:#e5b171 ;
+}
+.footer-copyright {
+  margin-bottom: 30px;
+}
+
+
+
+

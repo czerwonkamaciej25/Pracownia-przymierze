@@ -1,0 +1,19 @@
+<svg id="kryzys" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139" height="139" viewBox="0 0 139 139">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_75" data-name="Rectangle 75" width="68.603" height="93.319" fill="none" stroke="#965506" stroke-width="4"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_81" data-name="Rectangle 81" width="139" height="139" rx="15" transform="translate(0 139) rotate(-90)" fill="#eaddcd" opacity="0.34"/>
+  <g id="Group_100" data-name="Group 100" transform="translate(-1008 -809)">
+    <g id="Group_44" data-name="Group 44" transform="translate(1037.989 827)">
+      <g id="Group_43" data-name="Group 43" clip-path="url(#clip-path)">
+        <rect id="Rectangle_74" data-name="Rectangle 74" width="65.851" height="13.85" transform="translate(1.376 78.094)" fill="none" stroke="#965506" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Path_98" data-name="Path 98" d="M13.127,95.849s-.112-27.546-.112-28.377a27.139,27.139,0,1,1,54.277,0c0,.832-.112,28.377-.112,28.377" transform="translate(-5.852 -18.136)" fill="none" stroke="#965506" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Line_6" data-name="Line 6" y2="12.846" transform="translate(33.683 1.376)" fill="none" stroke="#965506" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Line_7" data-name="Line 7" x2="9.084" y2="9.084" transform="translate(2.452 10.74)" fill="none" stroke="#965506" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Line_8" data-name="Line 8" x1="9.084" y2="9.084" transform="translate(57.577 10.366)" fill="none" stroke="#965506" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>
