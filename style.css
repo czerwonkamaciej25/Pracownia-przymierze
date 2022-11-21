@@ -841,6 +841,9 @@ hr {
 }
 .footer .contact-me .text-input input {
   border: none;
+  width: 250px;
+  font: normal normal normal 15px/33px "Open Sans";
+  padding: 5px;
 }
 .footer .contact-me .text-area-input {
   width: 100%;
@@ -851,6 +854,8 @@ hr {
   width: 100%;
   min-height: 143px;
   border: none;
+  font: normal normal normal 15px/33px "Open Sans";
+  padding: 5px;
 }
 .footer .contact-me h4 {
   text-align: left;

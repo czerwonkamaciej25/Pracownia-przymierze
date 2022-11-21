@@ -252,10 +252,15 @@
 .contact-subpage .contact-me .text-input input {
   border: 2px solid #b07f43;
   border-radius: 10px;
+  width: 250px;
+  font: normal normal normal 15px/33px "Open Sans";
+  padding: 5px;
 }
 .contact-subpage .contact-me .text-area-input {
   width: 100%;
   min-height: 143px;
+  font: normal normal normal 15px/33px "Open Sans";
+  
 }
 .contact-subpage .contact-me .text-area-input textarea {
   resize: none;
@@ -263,6 +268,7 @@
   min-height: 143px;
   border: 2px solid #b07f43;
   border-radius: 10px;
+  padding: 5px;
 }
 .contact-subpage .contact-me h4 {
   text-align: left;
